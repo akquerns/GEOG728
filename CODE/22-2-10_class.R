@@ -37,9 +37,27 @@ BEA <- BEA %>%
 
 tail(BEA)
 
-BEA_tidy <- BEA %>%
+BEA_tidy <- BEA %>% # make the data into long format for year
   pivot_longer(cols= X2001:X2019, 
                names_to = "Year",
-               values_to= "Value")
+               values_to= "Value",
+               names_prefix = "X") #get rid of the weird X at the beginning
 str(BEA_tidy)
+
+#we also want a new column for each category (uhhhhh not sure why)
+
+
+BEA_tidier <- BEA_tidy %>%
+  pivot_wider(names_from = Description,
+              values_from = Value)
+
+colSums(is.na(BEA_tidier)) #something is wrong--lots of NAs
+#by default for pivot_wider, by default it assumes ID col is where you take name from, but we want it o be defined by GEOFIPS and year
+
+BEA_tidier <- BEA_tidy %>%
+  pivot_wider(id_cols = c("GeoFIPS", "Year"),
+              names_from = Description,
+              values_from = Value)
+
+colSums(is.na(BEA_tidier))
 
