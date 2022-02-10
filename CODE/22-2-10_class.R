@@ -70,6 +70,17 @@ BEA_clean <- BEA_tidier %>%
 #They also combined state info with county breakdowns in one column (GeoName)
 
 
-BEA_clean %>%
-  #something to do with GEOFIPS !=20000 idk I missed this part
+BEA_clean <-BEA_clean %>%
+  filter(GeoFIPS != "\"20000\"")
+  #get rid of ones that aren't specific to a county
+  
+  BEA_clean %>% 
+  group_by(GeoFIPS)%>%
+  summarise_all(~sum(is.na(.)))
             
+  
+  BEA_clean %>%
+    summarise_all(~mean(., na.rm=T))
+  
+  BEA_clean %>%
+    summarise_all(~sd(., na.rm=T))
