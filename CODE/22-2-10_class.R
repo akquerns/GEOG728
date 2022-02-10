@@ -59,5 +59,17 @@ BEA_tidier <- BEA_tidy %>%
               names_from = Description,
               values_from = Value)
 
-colSums(is.na(BEA_tidier))
+colSums(is.na(BEA_tidier)) #No NAs! 
 
+str(BEA_tidier)
+
+BEA_clean <- BEA_tidier %>%
+  mutate_at(vars(Year:`Private services-providing industries 3/`),
+                 ~as.numeric(.)) #NAs will be introduced because of values "(D)"
+
+#They also combined state info with county breakdowns in one column (GeoName)
+
+
+BEA_clean %>%
+  #something to do with GEOFIPS !=20000 idk I missed this part
+            
