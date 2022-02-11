@@ -1,0 +1,30 @@
+---
+title: "Lab 3"
+author: "Aleah Querns"
+date: "2/11/2022"
+output: html_document
+---
+
+# Setup
+```{r setup, include=TRUE, message=FALSE}
+library(gapminder)
+library(tidyverse)
+library(datasets)
+library(viridis)
+library(gridExtra)
+
+```
+
+## Reduce this dataset down to the first 24 and last 12 variables in the original dataset
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+
+```{r pressure, echo=TRUE}
+plot(pressure)
+```
+
