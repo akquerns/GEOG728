@@ -1,0 +1,139 @@
+---
+title: 'Lab #1'
+author: "Aleah Querns"
+date: "1/25/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Homework 1
+
+Throughout, my R Markdown file should include:
+
+  + text describing what you are doing
+  
+  + multiple code chunks where you run actual R code
+  
+  + text describing the output
+  
+  + an image
+  
+  + text headers
+  
+  + at least two examples of non-standard text formatting
+  
+  + one list
+
+## 1: Create named numerical variable and vector of numbers
+
+**Since you ask for a list somewhere I just decided to include it in this step**
+
+``` {r Q1}
+
+howmanycatsdoIhave<-2
+
+yeehawmagicalvector <- c(1,2,3,4,5,6,7,8,9,10)
+
+listsarefineiguess<-list(howmanycatsdoIhave, yeehawmagicalvector)
+
+```
+
+
+## 2: Report these produced data objects and then apply at least two functions to each
+
+_Please don't judge my cat examples I couldn't think of anything else_
+
+``` {r Q2}
+howmanycatsdoIhave
+yeehawmagicalvector
+
+#functions for howmanycatsdoIhave
+toomanycats<-function (howmanycatsdoIhave) {
+  howmanycatsdoIhave^1000
+}
+
+toomanycats(howmanycatsdoIhave)
+
+sadamountofcats<-function (howmanycatsdoIhave) {
+  howmanycatsdoIhave/2
+}
+
+sadamountofcats(howmanycatsdoIhave)
+
+#functions for yeehawmagicalvector
+
+mean(yeehawmagicalvector)
+
+max(yeehawmagicalvector)
+
+```
+(You asked for text describing the output and I'm not sure what this means, but I'll just roll with it)
+
+I have two cats
+
+I created a vector (yeehawmagicalvector) going from 1-10
+
+1.071509e+301 cats is too many
+
+1 cat is a sad amount of cats
+
+The mean of yeehawmagicalvector is 5.5
+
+The max value of yeehawmagicalvector is 10
+
+## 3: Create a new data frame with three columns and rows. At least one column should contain a character/string variable (e.g. list your top 3 favorite muppets)
+
+```{r Q3}
+
+RatingLaCroixFlavors <- data.frame (Flavor  = c("Coconut", "Peach-Pear", "Tangerine"),
+                  RefreshingScore  = c(4, 6, 8),
+                  TastesLikeaCandleScore = c(10, 3, 5))
+
+library(ggplot2)
+library(gridExtra)
+p1<-ggplot(RatingLaCroixFlavors, aes(x=Flavor, y=RefreshingScore))+
+  geom_bar(stat="identity", aes(fill=Flavor))
+
+p2<-ggplot(RatingLaCroixFlavors, aes(x=Flavor, y=TastesLikeaCandleScore))+
+  geom_bar(stat="identity", aes(fill=Flavor))
+
+coolgraph<-grid.arrange(p1,p2)
+
+```
+
+Above, you can see I created an image/graph showing how I rank LaCroix flavors. Coconut is the worst because it's not very refreshing and tastes like a candle.
+
+## 4: Load a dataset from the R datasets package and report summary information on the dataset and its structure.
+
+```{r Q4}
+
+data("ChickWeight")
+chicken<-ChickWeight
+
+head(chicken)
+tail(chicken)
+nrow(chicken)
+ncol(chicken)
+names(chicken)
+str(chicken)
+```
+
+Above, I summarize the chicken dataset by looking at the head of the data, the tail of the data, number of rows, number of columns, names (of columns), and the structure (classes of varibles).
+
+## 5: Use the ls() function to see that the objects are stored in your workspace. Clear your workspace using the rm(list = ls()) function. Then, run the ls() function to make sure the objects are gone.
+
+```{r Q5}
+ls()
+
+rm(list = ls())
+
+ls()
+
+```
+
+## 6: Sign up for a free student account on github and include your github username in your Markdown file.
+
+**My GitHub username is akquerns**

@@ -1,0 +1,177 @@
+---
+title: "Lab 2"
+author: "Aleah Querns"
+date: "2/3/2022"
+output: html_document
+---
+
+
+**Load libraries:**
+```{r setup, include=TRUE, message=FALSE}
+library(gapminder)
+library(tidyverse)
+library(datasets)
+library(viridis)
+library(gridExtra)
+
+
+```
+
+## Question 1:
+For the gapminder data order countries in reverse alphabetical order, then display the first 15. 
+
+```{r gapminder 1, echo=TRUE}
+
+data(gapminder)
+
+gapminder %>%
+  arrange(., desc(country)) %>%
+  head(., 15)
+
+```
+
+**Potential issues with this process that might lead to ordering problems in a different dataset: If the chosen category wasn't listed as a factor with levels (and perhaps were a a logical statement or complex number instead) then there would probably be issues with ordering, since R wouldn't always know what order to put stuff in**
+
+
+## Question 2:
+Calculate and display the mean, median, and standard deviation for the Life expectancy, Population, and GDPperCapita in the gapminder dataset.
+
+```{r gapminder 2, echo=TRUE}
+
+#Life expectancy
+
+
+LifeExpectancy<- gapminder%>%
+  summarize(mean_life= mean(gapminder$lifeExp),
+          median_life= median(gapminder$lifeExp),
+          sd_life = sd(gapminder$lifeExp))
+
+#Population
+
+Population<- gapminder%>%
+  summarize(mean_pop = mean(gapminder$pop),
+          median_pop= median(gapminder$pop),
+          sd_pop = sd(gapminder$pop))
+
+#GDPperCapita
+
+GDPperCap<- gapminder%>%
+  summarize(mean_gdp = mean(gapminder$gdpPercap),
+          median_gdp = median(gapminder$gdpPercap),
+          sd_gdp = sd(gapminder$gdpPercap))
+
+LifeExpectancy
+Population
+GDPperCap
+
+```
+
+## Question 3: 
+Calculate and display in a single dataframe the mean values for Life expectancy, Population, and GDPperCapita for each continent.
+
+```{r gapminder 3, echo=TRUE}
+
+mean_bycontinent<- gapminder %>%
+  group_by(continent)%>%
+  summarize(mean_life = mean(lifeExp),
+            mean_pop = mean(pop),
+            mean_gdp = mean(gdpPercap))
+
+mean_bycontinent
+
+```
+
+## Question 4:
+Create a scatter plot of the global average Life expectancy over time and display the first 5 records for the dataset used to build this plot. Customize the display of the plot to make it less _blah_.
+
+```{r gapminder 4, echo=TRUE}
+
+avelife <- gapminder %>%
+  group_by(year) %>%
+  summarize(GlobalAvgLifeExpectancy = mean (lifeExp))
+
+head(avelife, 5)
+
+ggplot(avelife, aes(x=year, y=GlobalAvgLifeExpectancy)) +
+  geom_point(aes(col="cyan4", size=GlobalAvgLifeExpectancy)) +
+  xlab("Year") +
+  ylab("Global Average Life Expectancy") +
+  theme_bw()+
+  theme(legend.position = "none")
+
+```
+
+## Question 5:
+Pull in a dataset of your choice from the datasets package that has a dataframe structure. Then examine the structure of the data including: class types, header information, and dimensions.
+
+**Here, I used the beavers dataset (specifically beaver1)**
+
+
+```{r random data 1, echo=TRUE}
+data(beavers) #focusing on beaver 1
+
+str(beaver1)
+
+```
+
+## Question 6:
+Calculate general summary statistics for the dataset.
+
+```{r random data 2, echo=TRUE}
+
+beaver1_summary<-
+  beaver1 %>%
+  summarize(., ave_temp = mean(temp),
+            sd_temp= sd(temp),
+            times_active = sum(activ),
+            num_obs = length(time))
+
+beaver1_summary
+
+```
+
+## Question 7:
+Calculate summary statistics for groups/subsets of the dataset (these groupings could be based on time period, species, location, etc…).
+
+```{r random data 3, echo=TRUE}
+
+beaver1_summary_byday<-
+  beaver1 %>%
+  group_by(day)%>%
+  summarize(., ave_temp = mean(temp),
+            sd_temp = sd(temp),
+            times_active = sum(activ),
+            num_obs = length(time))
+
+beaver1_summary_byday
+
+```
+
+## Question 8:
+Create 2 plots of your choice, one showing grouped data and the other showing ungrouped data. Give each plot a title and descriptive x and y axis labels. Customize at least one graphic option (color, point type, line width, etc…) on these plots.
+
+**Wasn't really sure how to graph the previously described summary statistics in a way that would be meaningful, so instead I made a histogram (ungrouped) and time series/line graph (grouped by day)**
+
+```{r random data 4, echo=TRUE}
+
+beaver1$day <- as.character(beaver1$day)
+
+ p1<-ggplot(data=beaver1, aes(temp)) +
+    geom_histogram(fill="cyan4", col="black", bins=50)+
+   xlab("Temperature (degrees Celsius)") +
+   ylab("Count")+
+   theme_bw()
+  #ungrouped histogram
+ 
+ p2<-ggplot(data=beaver1, aes(x=time, y=temp))+
+   geom_line(aes(group=day, col=day))+
+   geom_point(aes(group=day, col=day))+
+   xlab("Time (military)")+
+   ylab("Temperature (degrees Celsius)") +
+   theme_bw() +
+   scale_color_viridis(discrete=TRUE, option = "D")
+ 
+ grid.arrange(p1,p2)
+ 
+
+```

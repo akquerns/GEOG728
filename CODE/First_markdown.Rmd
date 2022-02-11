@@ -1,0 +1,65 @@
+---
+title: "My First Markdown"
+author: "Aleah Querns"
+date: "1/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is what my first R markdown looks like
+
+This is one paragraph.
+It stretches over several consecutive lines,
+but it will be formatted 
+as a single paragraph.
+
+This is another paragraph.
+The blank line between the two
+blocks of text tells Markdown
+that they are separate paragraphs
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+This is _italic text_. This is *also italic text*. __This is boldface__ and 
+**so is this**. ***This is bold italic***. This is
+~~strikethrough~~, perhaps 
+to indicate an error.
+
+1. Cats
+2. Bread
+
++hello
+
+```{r codename, options}
+print("hello") 
+sigma <- 5.67E-8
+I_solar <- 1350 # watts per square meter
+albedo <- 0.3
+I_absorbed <- I_solar * (1 - albedo)
+T <- (I_absorbed / (4 * sigma))^0.25
+T
+```
+
+We can use inline code to print the value of an R expression in the middle of a line of text. For example using inline code T =  `r T` will give T = 254.0663741. Or we could write T =  `r (I_absorbed / (4 * sigma))^0.25` to return 254.0663741.
+
+T= `r T` 
+
