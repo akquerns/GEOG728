@@ -7,24 +7,269 @@ output: html_document
 
 # Setup
 ```{r setup, include=TRUE, message=FALSE}
+
 library(gapminder)
 library(tidyverse)
 library(datasets)
 library(viridis)
 library(gridExtra)
+library(MuMIn)
+
+knitr::opts_knit$set(root.dir = '~/Documents/K-State Year 2/GEOG728/GEOG728_GIT')
 
 ```
 
-## Reduce this dataset down to the first 24 and last 12 variables in the original dataset
 
-```{r cars}
-summary(cars)
+## The Dataset
+```{r data, echo=TRUE}
+food <- read.csv("DATA/FoodAtlas.csv")
+
+foodkey<-read.csv("DATA/FoodAtlas_key.csv")
+
 ```
 
-## Including Plots
 
+### 1. Reduce this dataset down to the first 24 and last 12 variables in the original dataset
 
-```{r pressure, echo=TRUE}
-plot(pressure)
+```{r reduce, echo=TRUE}
+colnames(food)
+
+foodr <- food %>%
+  select(CensusTract:LATracts20, TractLOWI:TractSNAP)
+
+foodr_key <- foodkey %>%
+  slice(1:24, 136:147)
+
 ```
 
+### 2. Examine this reduced dataset and describe what type of data you’re working with. What is the data structure? What types of variables? Etc…
+
+
+```{r dat summary, echo=TRUE}
+
+str(foodr)
+colnames(foodr)
+dim(foodr)
+head(foodr, 15)
+tail(foodr, 15)
+
+sum(rowSums(is.na(foodr))>0)
+
+
+```
+
+It appears that this dataset provides census data specific to certain state/counties. POP2010 and OHU2010 give total population and housing numbers respectively, GroupQuartersFlag:LATracts20 provide relevant descriptive variables, and TractLOWI:TractSNAP provide population counts specific to certain demographics.
+
+The data shows 72864 rows and 36 columns, where most columns are numeric/integer format except for State and County, which are characters
+
+Luckily, the dataset has no NAs.
+
+### 3: Now make a new data object for the state of Kansas that includes just County, POP2010, LAhalfand10, MedianFamilyIncome,TractSNAP, and TractKids variables.
+
+```{r Kansas, echo=TRUE}
+foodk <- foodr %>%
+  filter(State== "Kansas")%>%
+  select(County, POP2010, LAhalfand10, MedianFamilyIncome, TractSNAP, TractKids)
+```
+
+### 4: Create a plot to illustrate the differences in MedianFamilyIncome across counties in Kansas. Are there significant differences across counties? Which counties have the greatest variation in income?
+
+```{r Median Family Income Plot, echo=TRUE}
+
+ggplot( foodk, aes(x=County, y=MedianFamilyIncome)) +
+  geom_boxplot() + 
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+med.incomeaov <- aov(MedianFamilyIncome ~ County, data=foodk)
+summary(med.incomeaov)
+
+vark<-foodk %>%
+  group_by(., County) %>%
+  summarize(variation = sd(MedianFamilyIncome)) %>%
+  arrange(desc(variation))
+print(vark)
+```
+
+_This plot looks bad, but since we're supposed to be comparing the median family income across counties and looking at variation I figured this was the best way. There's too many counties to be able to see the names that well. I didn't know Kansas has this many counties! There aren't that many people who live here! Why so many counties?!_
+
+Are there significant differences across counties? Yes, according to an ANOVA test. It would be hard to tell using the figure.
+Which counties have the greatest variation in income? Johnson county has the greatest variation overall, followed by Sedgwick, then Riley.
+
+
+### 5. Now check to see how MedianFamilyIncome compares across locations with low (or not) food accessibility (LAhalfand10). Compare using both basic descriptive statistics and graphical representation. What did you find?
+
+```{r LAhalfand10, echo=TRUE}
+
+lowaccessk <-foodk %>%
+  filter(LAhalfand10 == 1)
+
+ggplot( lowaccessk, aes(x=County, y=MedianFamilyIncome)) +
+  geom_boxplot() + 
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+varlowk<-lowaccessk %>%
+  group_by(., County) %>%
+  summarize(variationinc = sd(MedianFamilyIncome),
+            meaninc = mean(MedianFamilyIncome)) %>%
+  arrange(desc(variationinc))
+
+print(varlowk)
+
+med.incomeaov_low <- aov(MedianFamilyIncome ~ County, data=lowaccessk)
+summary(med.incomeaov_low)
+
+```
+
+We can still see that median family income still varies significantly by county, even among counties with low food access.
+
+Johnson county remains the most variable. This is despite the fact that Johnson county also has the largest overall mean family income. This makes sense; there is a lot of inequity in Kansas City.
+
+### 6: Choose one other variable in your Kansas data and examine the variations across counties and food accessibility using both descriptive statistics and graphical comparison. What did you find?
+
+```{r variation, echo=TRUE}
+
+##TractKids
+
+#Across counties
+
+ggplot( foodk, aes(x=County, y=TractKids)) +
+  geom_boxplot() + 
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+varKids<-foodk %>%
+  group_by(., County) %>%
+  summarize(varK = sd(TractKids),
+            meanK = mean(TractKids)) %>%
+  arrange(desc(meanK))
+
+print(varKids)
+
+kids.aov <- aov(TractKids ~ County, data=foodk)
+summary(kids.aov)
+
+##Food accessible vs not??
+foodk$LAhalfand10 <- as.factor(foodk$LAhalfand10)
+
+ggplot( foodk, aes(x=LAhalfand10, y=TractKids)) +
+  geom_boxplot() + 
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+
+varKids_INC<-foodk %>%
+  group_by(., LAhalfand10) %>%
+  summarize(varK = sd(TractKids),
+            meanK = mean(TractKids)) %>%
+  arrange(desc(meanK))
+
+print(varKids_INC)
+
+kids_INC <- t.test(TractKids ~ LAhalfand10, data=foodk)
+kids_INC
+
+```
+
+Total count of children age 0-17 in tracts varies significantly by county. The highest mean number of kids is in Pottawatomie, followed by Ford, then Harvey.
+
+At first glance, the count of children age 0-17 in tracts does not vary significantly by food accessibility (in the figure). However, if you refer to the t-test you can see there is a significant difference, where places lacking food accessibility have a higher mean number of kids.
+
+
+### 7: Using either descriptive statistics or graphical comparison (or both) examine how the variables in your Kansas dataset relate to food accessibility and food assistance (SNAP). What variables most explain food accessibility and food assistance? (Show your work please.)
+
+```{r SNAP, echo=TRUE}
+
+l1<-lm(TractSNAP ~ POP2010, data=foodk)
+l2<-lm(TractSNAP ~ LAhalfand10, data=foodk)
+l3<-lm(TractSNAP ~ MedianFamilyIncome, data=foodk)
+l4<-lm(TractSNAP ~ TractKids, data=foodk)
+
+summary(l1) #Adj. Rsq= 0.05974 
+summary(l2) #Adj. Rsq= = 0.01608 
+summary(l3) #Adj. Rsq=.2424 
+summary(l4) #Adj. Rsq= 0.06076 
+
+
+
+```
+According to linear models, MedianFamilyIncome explains the most variation in TractSnap.This is because the linear model of TractSnap ~ MedianFamilyIncome has the highest adjusted R-squared value (0.2424).
+
+### 8: Use the full national dataset you created in step 1 and create a state-by-state summary of each variable. Use this state summary dataset to examine how food accessibility varies across states (you can choose which measure of food accessibility to use). Which states have the most problems with food accessibility? Which have the lowest?
+
+```{r state summary, echo=TRUE}
+summarized<-foodr %>%
+  select(-County) %>%
+  group_by(State) %>%
+  summarise(across(everything(), list(MEAN = mean, VAR=sd))) %>%
+  arrange(desc(LA1and10_MEAN))
+
+head(summarized, 20) #state by state mean of all variables, including mean and variation
+
+ggplot(summarized, aes(x= reorder(State, LA1and10_MEAN), y= LA1and10_MEAN  ))+
+  geom_bar(stat = 'identity')+
+  theme_bw()+ 
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  ylab("Mean rate of Flags for Low Access Tracts (LA1and10)") +
+  xlab("State")
+
+
+```
+
+Which states have the most problems with food accessibility?
+
+_on average, it looks like South Dakota, Wyoming, North Dakota, and New Mexico have the greatest problems for food accessibility, with the highest overall mean rate at which "flags for low access tracts" (LA1and10) appear._
+
+Which have the lowest?
+
+_on average, it looks like Washington DC, New York, and Vermont have the least problems for food accessibility, with the lowest overall mean rate at which "flags for low access tracts" (LA1and10) appear._
+
+### 9: Examine the trends between 3 variables of your choice and food accessibility across states in the US and describe your findings.
+
+```{r trends, echo=TRUE}
+
+#Food accessibility vs PovertyRate (Share of the tract population living with income at or below the Federal poverty thresholds for family size)
+
+ggplot(summarized, aes(x=PovertyRate_MEAN, y= LA1and10_MEAN)) +
+  geom_point()+
+  geom_smooth(method="lm")+
+  theme_bw()+ 
+  ylab("Mean Rate of Flags for Low Access Tracts (LA1and10)") +
+  xlab("Mean Poverty Rate across States")
+
+lm_pov<- lm(LA1and10_MEAN~PovertyRate_MEAN, summarized)
+summary(lm_pov)
+
+#Food accessibility vs TractLOWI (Total count of low-income population in tract )
+ggplot(summarized, aes(x=TractLOWI_MEAN, y= LA1and10_MEAN)) +
+  geom_point()+
+  geom_smooth(method="lm")+
+  theme_bw()+ 
+  ylab("Mean Rate of Flags for Low Access Tracts (LA1and10)") +
+  xlab("Mean count of low-income Populations in Tracts across State")
+
+lm_LOWI<- lm(LA1and10_MEAN~TractLOWI_MEAN, summarized)
+summary(lm_LOWI)
+
+#Food accessibility vs Urban (Flag for urban tract)
+
+ggplot(summarized, aes(x=Urban_MEAN, y= LA1and10_MEAN)) +
+  geom_point()+
+  geom_smooth(method="lm")+
+  theme_bw()+ 
+  ylab("Mean Rate of Flags for Low Access Tracts (LA1and10)") +
+  xlab("Mean Rate of Flags for Urban Tracts across State")
+
+lm_urb<- lm(LA1and10_MEAN~Urban_MEAN, summarized)
+summary(lm_urb)
+
+```
+
+
+To summarize:
+  
+  +  Mean flags for low access tracts at 1 mile for urban areas or 10 miles for rural areas do not show a significant relationship ( _p=0.973_ ) with mean poverty rates across states
+
+  +  Mean flags for low access tracts at 1 mile for urban areas or 10 miles for rural areas show a marginally significant relationship ( _p=0.0937_ ) with mean poverty rates across states, but this relationship doesn't explain much variation ( _Adjusted R-squared:  0.03701_ )
+
+  +  Mean flags for low access tracts at 1 mile for urban areas or 10 miles for rural areas show a  significant relationship ( _p=0.0249_ ) with mean rates of flags for urban tracts across states, and this relationship doesn't explain much variation ( _Adjusted R-squared:  0.08017_ )
