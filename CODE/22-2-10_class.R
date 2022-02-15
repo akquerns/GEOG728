@@ -18,7 +18,7 @@
 
 ################################################################################
 library(tidyverse)
-BEA<- read.csv("KS_BEA.csv", stringsAsFactors = FALSE)
+BEA<- read.csv("DATA/KS_BEA.csv", stringsAsFactors = FALSE)
 ################################################################################
 
 str(BEA)
@@ -51,7 +51,10 @@ BEA_tidier <- BEA_tidy %>%
   pivot_wider(names_from = Description,
               values_from = Value)
 
-colSums(is.na(BEA_tidier)) #something is wrong--lots of NAs
+colSums(is.na(BEA_tidier)) #something is wrong--lots of NAs--assumes we take a unique record of GEOFIPS,
+#which isn't right because we have multiple years for each loc
+
+
 #by default for pivot_wider, by default it assumes ID col is where you take name from, but we want it o be defined by GEOFIPS and year
 
 BEA_tidier <- BEA_tidy %>%
@@ -61,7 +64,7 @@ BEA_tidier <- BEA_tidy %>%
 
 colSums(is.na(BEA_tidier)) #No NAs! 
 
-str(BEA_tidier)
+str(BEA_tidier) #notice how all are monetary values are characters, not numbers
 
 BEA_clean <- BEA_tidier %>%
   mutate_at(vars(Year:`Private services-providing industries 3/`),
@@ -69,9 +72,10 @@ BEA_clean <- BEA_tidier %>%
 
 #They also combined state info with county breakdowns in one column (GeoName)
 
+str(BEA_clean)
 
 BEA_clean <-BEA_clean %>%
-  filter(GeoFIPS != "\"20000\"")
+  filter(GeoFIPS != " \"20000\"")
   #get rid of ones that aren't specific to a county
   
   BEA_clean %>% 
@@ -79,8 +83,43 @@ BEA_clean <-BEA_clean %>%
   summarise_all(~sum(is.na(.)))
             
   
-  BEA_clean %>%
-    summarise_all(~mean(., na.rm=T))
+ 
+  length(unique(BEA_clean$GeoFIPS))#how many unique counties?
+  length(unique(BEA_clean$Year))#how many unique counties?
+  
+  # does that equal total obs? 
+  105*19 #answer: 1995
   
   BEA_clean %>%
-    summarise_all(~sd(., na.rm=T))
+    group_by(Year)%>%
+    summarize_all(~sum(is.na(.))) #how many NAs are there by year for each column?
+  
+  BEA_clean %>%
+    group_by(GeoFIPS)%>%
+    summarize_all(~sum(is.na(.))) %>%
+    arrange(desc(.))#how many NAs are there by county for each column?
+
+   BEA_clean %>%
+    summarise_all(~mean(., na.rm=T)) #give me the mean of all columns, drop NAs
+  
+  BEA_clean %>%
+    summarise_all(~sd(., na.rm=T)) #give me the sd() of all columns, drop NAs
+  
+ BEA_clean <- BEA_clean %>%
+    rename(tot='All industry total')
+  
+  BEA_clean %>%
+    filter(Year==2012)%>%
+    ggplot(.)+
+    geom_histogram(aes(x=tot))
+  
+  
+  ggplot(BEA_clean) +
+    geom_boxplot(aes(x=GeoFIPS, y= tot), fill="skyblue1") +
+    theme(axis.text.x = element_text(angle=90))+
+    theme_bw()
+
+  ggplot(BEA_clean)+
+    geom_point(aes(x=Year, y=BEA_clean$`  Agriculture, forestry, fishing and hunting` )) +
+    geom_smooth(aes(x=Year, y=BEA_clean$`  Agriculture, forestry, fishing and hunting` ))
+  
