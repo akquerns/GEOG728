@@ -1,0 +1,1273 @@
+Date,Crop,Plot,Treatment,system,description,Yield_bu_A,Yield_kg_ha,Year
+11/10/2017,Glycine max L. (*),103,19,G,Soybean,4.3,287,2017
+11/10/2017,Glycine max L. (*),416,16,F,Soybean single cover,14.9,1004,2017
+11/10/2017,Glycine max L. (*),308,16,F,Soybean single cover,14.2,953,2017
+11/10/2017,Glycine max L. (*),210,16,F,Soybean single cover,11.2,753,2017
+11/10/2017,Glycine max L. (*),101,16,F,Soybean single cover,7.5,503,2017
+11/10/2017,Glycine max L. (*),414,14,E,Wheat - Soybean,15.5,1039,2017
+11/10/2017,Glycine max L. (*),304,14,E,Wheat - Soybean,9,608,2017
+11/10/2017,Glycine max L. (*),204,14,E,Wheat - Soybean,12.4,832,2017
+11/10/2017,Glycine max L. (*),115,14,E,Wheat - Soybean,16.1,1081,2017
+11/10/2017,Glycine max L. (*),412,12,E,Corn - Soybean,22.5,1512,2017
+11/10/2017,Glycine max L. (*),313,12,E,Corn - Soybean,21,1409,2017
+11/10/2017,Glycine max L. (*),202,12,E,Corn - Soybean,9.4,632,2017
+11/10/2017,Glycine max L. (*),109,12,E,Corn - Soybean,29.4,1976,2017
+11/10/2017,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,0,,2017
+11/10/2017,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,13.7,920,2017
+11/10/2017,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,20.3,1365,2017
+11/10/2017,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,23.1,1553,2017
+11/10/2017,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,15.3,1030,2017
+11/10/2017,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,13.3,896,2017
+11/10/2017,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,19.3,1294,2017
+11/10/2017,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,17.3,1163,2017
+11/10/2017,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,17.9,1201,2017
+11/10/2017,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,10.6,716,2017
+11/10/2017,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,18,1208,2017
+11/10/2017,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,20.7,1391,2017
+11/10/2017,Glycine max L. (*),419,19,G,Soybean,16,1073,2017
+11/10/2017,Glycine max L. (*),315,19,G,Soybean,8.4,563,2017
+11/10/2017,Glycine max L. (*),218,19,G,Soybean,9.9,665,2017
+10/27/2017,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,30.3,1903,2017
+10/27/2017,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,39.3,2466,2017
+10/27/2017,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,14.4,905,2017
+10/27/2017,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,42.1,2642,2017
+10/27/2017,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,43.2,2709,2017
+10/27/2017,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,34.1,2138,2017
+10/27/2017,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,17.6,1106,2017
+10/27/2017,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,17.7,1113,2017
+10/27/2017,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,50,3138,2017
+10/27/2017,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,48.8,3065,2017
+10/27/2017,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,52.5,3295,2017
+10/27/2017,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,32.2,2023,2017
+10/27/2017,Zea mays L. (*),113,13,E,Soybean - Corn,52.8,3310,2017
+10/27/2017,Zea mays L. (*),212,13,E,Soybean - Corn,44.1,2768,2017
+10/27/2017,Zea mays L. (*),319,13,E,Soybean - Corn,42,2636,2017
+10/27/2017,Zea mays L. (*),413,13,E,Soybean - Corn,40.1,2513,2017
+10/27/2017,Zea mays L. (*),112,15,F,Corn single cover,59.2,3716,2017
+10/27/2017,Zea mays L. (*),213,15,F,Corn single cover,32.8,2059,2017
+10/27/2017,Zea mays L. (*),301,15,F,Corn single cover,41.1,2579,2017
+10/27/2017,Zea mays L. (*),415,15,F,Corn single cover,18.8,1182,2017
+10/27/2017,Zea mays L. (*),108,18,G,Corn,35.9,2252,2017
+10/27/2017,Zea mays L. (*),208,18,G,Corn,31.8,1995,2017
+10/27/2017,Zea mays L. (*),311,18,G,Corn,24.2,1521,2017
+10/27/2017,Zea mays L. (*),418,18,G,Corn,33.6,2111,2017
+7/18/2017,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,24.2,1626,2017
+7/18/2017,Triticum aestivum L. (*),420,20,G,Wheat,25.3,1702,2017
+7/18/2017,Triticum aestivum L. (*),318,20,G,Wheat,19.5,1314,2017
+7/18/2017,Triticum aestivum L. (*),215,20,G,Wheat,18.4,1235,2017
+7/18/2017,Triticum aestivum L. (*),120,20,G,Wheat,17.5,1173,2017
+7/18/2017,Triticum aestivum L. (*),417,17,F,Wheat single cover,28,1882,2017
+7/18/2017,Triticum aestivum L. (*),302,17,F,Wheat single cover,21.6,1453,2017
+7/18/2017,Triticum aestivum L. (*),211,17,F,Wheat single cover,22.4,1508,2017
+7/18/2017,Triticum aestivum L. (*),116,17,F,Wheat single cover,12.9,865,2017
+7/18/2017,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,27.6,1854,2017
+7/18/2017,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,21.5,1446,2017
+7/18/2017,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,28.7,1926,2017
+7/18/2017,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,27.1,1822,2017
+7/18/2017,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,25.9,1741,2017
+7/18/2017,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,31.2,2100,2017
+7/18/2017,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,31.9,2147,2017
+7/18/2017,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,25.7,1724,2017
+7/18/2017,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,20,1346,2017
+7/18/2017,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,16.6,1118,2017
+7/18/2017,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,46.4,3116,2017
+10/24/2016,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,83.8,5256,2016
+10/24/2016,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,35.1,2205,2016
+10/24/2016,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,48.8,3059,2016
+10/24/2016,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,74.6,4679,2016
+10/24/2016,Zea mays L. (*),109,12,E,Corn - Soybean,83.3,5225,2016
+10/24/2016,Zea mays L. (*),202,12,E,Corn - Soybean,33,2069,2016
+10/24/2016,Zea mays L. (*),313,12,E,Corn - Soybean,44.9,2817,2016
+10/24/2016,Zea mays L. (*),412,12,E,Corn - Soybean,84,5269,2016
+10/24/2016,Zea mays L. (*),112,15,F,Corn single cover,96,6026,2016
+10/24/2016,Zea mays L. (*),213,15,F,Corn single cover,45.4,2848,2016
+10/24/2016,Zea mays L. (*),301,15,F,Corn single cover,66.1,4147,2016
+10/24/2016,Zea mays L. (*),415,15,F,Corn single cover,34.7,2179,2016
+10/24/2016,Zea mays L. (*),108,18,G,Corn,30.7,1925,2016
+10/24/2016,Zea mays L. (*),311,18,G,Corn,17.5,1098,2016
+10/24/2016,Zea mays L. (*),208,18,G,Corn,24.9,1565,2016
+10/24/2016,Zea mays L. (*),418,18,G,Corn,44.6,2800,2016
+10/24/2016,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,137.5,8625,2016
+10/24/2016,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,102.1,6408,2016
+10/24/2016,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,84,5270,2016
+10/24/2016,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,101.6,6375,2016
+10/24/2016,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,123.2,7732,2016
+10/24/2016,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,127.7,8011,2016
+10/24/2016,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,74.2,4657,2016
+10/24/2016,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,109.3,6860,2016
+10/21/2016,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,22.6,1518,2016
+10/21/2016,Glycine max L. (*),419,19,G,Soybean,31.4,2112,2016
+10/21/2016,Glycine max L. (*),315,19,G,Soybean,16.7,1125,2016
+10/21/2016,Glycine max L. (*),218,19,G,Soybean,24.6,1656,2016
+10/21/2016,Glycine max L. (*),103,19,G,Soybean,34.7,2333,2016
+10/21/2016,Glycine max L. (*),416,16,F,Soybean single cover,31.1,2089,2016
+10/21/2016,Glycine max L. (*),308,16,F,Soybean single cover,18.7,1256,2016
+10/21/2016,Glycine max L. (*),210,16,F,Soybean single cover,30.1,2021,2016
+10/21/2016,Glycine max L. (*),101,16,F,Soybean single cover,21.9,1469,2016
+10/21/2016,Glycine max L. (*),413,13,E,Soybean - Corn,39.1,2631,2016
+10/21/2016,Glycine max L. (*),319,13,E,Soybean - Corn,34.2,2298,2016
+10/21/2016,Glycine max L. (*),212,13,E,Soybean - Corn,28.6,1922,2016
+10/21/2016,Glycine max L. (*),113,13,E,Soybean - Corn,46.8,3145,2016
+10/21/2016,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,41.9,2820,2016
+10/21/2016,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,31.4,2108,2016
+10/21/2016,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,27.9,1874,2016
+10/21/2016,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,46.6,3133,2016
+10/21/2016,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,40,2687,2016
+10/21/2016,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,43.2,2907,2016
+10/21/2016,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,42,2820,2016
+10/21/2016,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,43.9,2951,2016
+10/21/2016,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,34.2,2297,2016
+10/21/2016,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,29.4,1978,2016
+10/21/2016,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,46.9,3150,2016
+7/19/2016,Triticum aestivum L. (*),215,20,G,Wheat,32.6,2189,2016
+7/19/2016,Triticum aestivum L. (*),120,20,G,Wheat,31.4,2108,2016
+7/19/2016,Triticum aestivum L. (*),417,17,F,Wheat single cover,39.2,2633,2016
+7/19/2016,Triticum aestivum L. (*),302,17,F,Wheat single cover,39.6,2659,2016
+7/19/2016,Triticum aestivum L. (*),211,17,F,Wheat single cover,40.9,2751,2016
+7/19/2016,Triticum aestivum L. (*),116,17,F,Wheat single cover,32,2153,2016
+7/19/2016,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,24.9,1675,2016
+7/19/2016,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,20,1342,2016
+7/19/2016,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,16.6,1116,2016
+7/19/2016,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,26,1749,2016
+7/19/2016,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,28.2,1893,2016
+7/19/2016,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,28.8,1937,2016
+7/19/2016,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,28.5,1917,2016
+7/19/2016,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,38.9,2614,2016
+7/19/2016,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,37.3,2508,2016
+7/19/2016,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,22.7,1529,2016
+7/19/2016,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,28.7,1928,2016
+7/19/2016,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,27.6,1856,2016
+7/19/2016,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,33.3,2238,2016
+7/19/2016,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,34.4,2316,2016
+7/19/2016,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,28,1879,2016
+7/19/2016,Triticum aestivum L. (*),420,20,G,Wheat,53.5,3599,2016
+7/19/2016,Triticum aestivum L. (*),318,20,G,Wheat,40.8,2743,2016
+7/19/2016,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,36.9,2480,2016
+11/11/2015,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,23.8,1495,2015
+11/11/2015,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,48.4,3035,2015
+11/11/2015,Zea mays L. (*),113,13,E,Soybean - Corn,72.6,4557,2015
+11/11/2015,Zea mays L. (*),212,13,E,Soybean - Corn,34.6,2169,2015
+11/11/2015,Zea mays L. (*),319,13,E,Soybean - Corn,53.4,3353,2015
+11/11/2015,Zea mays L. (*),413,13,E,Soybean - Corn,48.3,3029,2015
+11/11/2015,Zea mays L. (*),112,15,F,Corn single cover,51.5,3229,2015
+11/11/2015,Zea mays L. (*),418,18,G,Corn,14,876,2015
+11/11/2015,Zea mays L. (*),311,18,G,Corn,19.3,1209,2015
+11/11/2015,Zea mays L. (*),208,18,G,Corn,18.8,1181,2015
+11/11/2015,Zea mays L. (*),108,18,G,Corn,23.9,1499,2015
+11/11/2015,Zea mays L. (*),415,15,F,Corn single cover,2,124,2015
+11/11/2015,Zea mays L. (*),301,15,F,Corn single cover,31.7,1989,2015
+11/11/2015,Zea mays L. (*),213,15,F,Corn single cover,11.7,736,2015
+11/11/2015,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,62.9,3946,2015
+11/11/2015,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,11.1,699,2015
+11/11/2015,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,17,1067,2015
+11/11/2015,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,126.2,7920,2015
+11/11/2015,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,55.7,3495,2015
+11/11/2015,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,48.4,3038,2015
+11/11/2015,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,32.3,2024,2015
+11/11/2015,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,59.7,3744,2015
+11/11/2015,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,63.6,3988,2015
+11/11/2015,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,15.2,954,2015
+10/27/2015,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,31.4,2109,2015
+10/27/2015,Glycine max L. (*),419,19,G,Soybean,18.7,1257,2015
+10/27/2015,Glycine max L. (*),315,19,G,Soybean,11.3,761,2015
+10/27/2015,Glycine max L. (*),218,19,G,Soybean,26.5,1782,2015
+10/27/2015,Glycine max L. (*),103,19,G,Soybean,22.8,1533,2015
+10/27/2015,Glycine max L. (*),416,16,F,Soybean single cover,23.8,1602,2015
+10/27/2015,Glycine max L. (*),308,16,F,Soybean single cover,12.2,818,2015
+10/27/2015,Glycine max L. (*),210,16,F,Soybean single cover,21.2,1423,2015
+10/27/2015,Glycine max L. (*),101,16,F,Soybean single cover,27.2,1829,2015
+10/27/2015,Glycine max L. (*),414,14,E,Wheat - Soybean,27.8,1869,2015
+10/27/2015,Glycine max L. (*),304,14,E,Wheat - Soybean,17.9,1200,2015
+10/27/2015,Glycine max L. (*),204,14,E,Wheat - Soybean,20.4,1369,2015
+10/27/2015,Glycine max L. (*),115,14,E,Wheat - Soybean,18.8,1262,2015
+10/27/2015,Glycine max L. (*),412,12,E,Corn - Soybean,35.8,2405,2015
+10/27/2015,Glycine max L. (*),313,12,E,Corn - Soybean,29.1,1954,2015
+10/27/2015,Glycine max L. (*),202,12,E,Corn - Soybean,19.8,1334,2015
+10/27/2015,Glycine max L. (*),109,12,E,Corn - Soybean,42.7,2869,2015
+10/27/2015,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,31.8,2137,2015
+10/27/2015,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,33,2216,2015
+10/27/2015,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,40.7,2739,2015
+10/27/2015,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,23.1,1555,2015
+10/27/2015,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,25.7,1729,2015
+10/27/2015,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,26,1745,2015
+10/27/2015,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,45.3,3044,2015
+10/27/2015,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,23.1,1550,2015
+10/27/2015,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,27.6,1857,2015
+10/27/2015,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,29.4,1979,2015
+10/27/2015,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,38.5,2591,2015
+7/24/2015,Triticum aestivum L. (*),420,20,G,Wheat,34.7,2331,2015
+7/24/2015,Triticum aestivum L. (*),318,20,G,Wheat,27.3,1837,2015
+7/24/2015,Triticum aestivum L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,27.8,1867,2015
+7/24/2015,Triticum aestivum L. (*),216,11,D,Wheat - Corn - Soybean,24.3,1633,2015
+7/24/2015,Triticum aestivum L. (*),309,11,D,Wheat - Corn - Soybean,22.8,1533,2015
+7/24/2015,Triticum aestivum L. (*),411,11,D,Wheat - Corn - Soybean,26.2,1763,2015
+7/24/2015,Triticum aestivum L. (*),116,17,F,Wheat single cover,29.8,2002,2015
+7/24/2015,Triticum aestivum L. (*),211,17,F,Wheat single cover,35.9,2414,2015
+7/24/2015,Triticum aestivum L. (*),302,17,F,Wheat single cover,28.7,1932,2015
+7/24/2015,Triticum aestivum L. (*),417,17,F,Wheat single cover,20.9,1404,2015
+7/24/2015,Triticum aestivum L. (*),120,20,G,Wheat,32.5,2184,2015
+7/24/2015,Triticum aestivum L. (*),215,20,G,Wheat,25.9,1739,2015
+7/24/2015,Triticum aestivum L. (*),110,11,D,Wheat - Corn - Soybean,32.9,2214,2015
+7/24/2015,Triticum aestivum L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,29,1948,2015
+7/24/2015,Triticum aestivum L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,26.9,1807,2015
+7/24/2015,Triticum aestivum L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,28.3,1903,2015
+7/24/2015,Triticum aestivum L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,41,2756,2015
+7/24/2015,Triticum aestivum L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,28.8,1934,2015
+7/24/2015,Triticum aestivum L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,24.1,1619,2015
+7/24/2015,Triticum aestivum L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,26.9,1807,2015
+11/5/2014,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,42.6,2674,2014
+11/5/2014,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,29.3,1836,2014
+11/5/2014,Zea mays L. (*),109,12,E,Corn - Soybean,79,4956,2014
+11/5/2014,Zea mays L. (*),202,12,E,Corn - Soybean,52.3,3279,2014
+11/5/2014,Zea mays L. (*),313,12,E,Corn - Soybean,58.8,3690,2014
+11/5/2014,Zea mays L. (*),412,12,E,Corn - Soybean,59.9,3755,2014
+11/5/2014,Zea mays L. (*),112,15,F,Corn single cover,53.4,3349,2014
+11/5/2014,Zea mays L. (*),213,15,F,Corn single cover,36.4,2281,2014
+11/5/2014,Zea mays L. (*),301,15,F,Corn single cover,74,4640,2014
+11/5/2014,Zea mays L. (*),415,15,F,Corn single cover,29.2,1830,2014
+11/5/2014,Zea mays L. (*),108,18,G,Corn,37.5,2356,2014
+11/5/2014,Zea mays L. (*),208,18,G,Corn,35.5,2227,2014
+11/5/2014,Zea mays L. (*),311,18,G,Corn,41.8,2625,2014
+11/5/2014,Zea mays L. (*),418,18,G,Corn,39.4,2469,2014
+11/5/2014,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,82.3,5165,2014
+11/5/2014,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,66.8,4189,2014
+11/5/2014,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,51.5,3230,2014
+11/5/2014,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,73.2,4591,2014
+11/5/2014,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,81.4,5106,2014
+11/5/2014,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,92.2,5786,2014
+11/5/2014,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,62.1,3895,2014
+11/5/2014,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,78.6,4930,2014
+11/5/2014,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,37.4,2344,2014
+11/5/2014,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,75,4707,2014
+10/24/2014,Glycine max L. (*),413,13,E,Soybean - Corn,27.3,1838,2014
+10/24/2014,Glycine max L. (*),319,13,E,Soybean - Corn,33.6,2259,2014
+10/24/2014,Glycine max L. (*),212,13,E,Soybean - Corn,22.8,1535,2014
+10/24/2014,Glycine max L. (*),113,13,E,Soybean - Corn,36.6,2461,2014
+10/24/2014,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,34.4,2312,2014
+10/24/2014,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,27.2,1826,2014
+10/24/2014,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,19.9,1338,2014
+10/24/2014,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,39.4,2650,2014
+10/24/2014,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,24.1,1620,2014
+10/24/2014,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,24.8,1669,2014
+10/24/2014,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,24.7,1663,2014
+10/24/2014,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,32.3,2171,2014
+10/24/2014,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,,,2014
+10/24/2014,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,20.1,1353,2014
+10/24/2014,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,25.1,1689,2014
+10/24/2014,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,35.7,2397,2014
+10/24/2014,Glycine max L. (*),419,19,G,Soybean,24.7,1660,2014
+10/24/2014,Glycine max L. (*),315,19,G,Soybean,9.7,655,2014
+10/24/2014,Glycine max L. (*),218,19,G,Soybean,20.4,1374,2014
+10/24/2014,Glycine max L. (*),103,19,G,Soybean,24.1,1617,2014
+10/24/2014,Glycine max L. (*),416,16,F,Soybean single cover,25,1681,2014
+10/24/2014,Glycine max L. (*),308,16,F,Soybean single cover,15.7,1055,2014
+10/24/2014,Glycine max L. (*),210,16,F,Soybean single cover,21.1,1417,2014
+10/24/2014,Glycine max L. (*),101,16,F,Soybean single cover,25.6,1723,2014
+7/25/2014,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,4,270,2014
+7/25/2014,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,6.6,444,2014
+7/25/2014,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,8.5,573,2014
+7/25/2014,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,11.9,801,2014
+7/25/2014,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,17.2,1159,2014
+7/25/2014,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,12.5,843,2014
+7/25/2014,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,10.7,721,2014
+7/25/2014,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,13.8,929,2014
+7/25/2014,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,15.7,1052,2014
+7/25/2014,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,11,738,2014
+7/25/2014,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,27,1812,2014
+7/25/2014,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,31.4,2108,2014
+7/25/2014,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,19.4,1304,2014
+7/25/2014,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,9.2,616,2014
+7/25/2014,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,10.3,690,2014
+7/25/2014,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,40.5,2721,2014
+7/25/2014,Triticum aestivum L. (*),211,17,F,Wheat single cover,9,604,2014
+7/25/2014,Triticum aestivum L. (*),302,17,F,Wheat single cover,12.3,825,2014
+7/25/2014,Triticum aestivum L. (*),417,17,F,Wheat single cover,0.2,15,2014
+7/25/2014,Triticum aestivum L. (*),120,20,G,Wheat,2.5,167,2014
+7/25/2014,Triticum aestivum L. (*),215,20,G,Wheat,7.8,523,2014
+7/25/2014,Triticum aestivum L. (*),318,20,G,Wheat,3,200,2014
+7/25/2014,Triticum aestivum L. (*),420,20,G,Wheat,7.4,500,2014
+7/25/2014,Triticum aestivum L. (*),116,17,F,Wheat single cover,6.1,409,2014
+11/5/2013,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,44.7,3004,2013
+11/5/2013,Glycine max L. (*),313,12,E,Corn - Soybean,44.8,3012,2013
+11/5/2013,Glycine max L. (*),412,12,E,Corn - Soybean,36.9,2480,2013
+11/5/2013,Glycine max L. (*),115,14,E,Wheat - Soybean,25.6,1722,2013
+11/5/2013,Glycine max L. (*),204,14,E,Wheat - Soybean,30.4,2043,2013
+11/5/2013,Glycine max L. (*),304,14,E,Wheat - Soybean,29.2,1962,2013
+11/5/2013,Glycine max L. (*),414,14,E,Wheat - Soybean,37.2,2502,2013
+11/5/2013,Glycine max L. (*),101,16,F,Soybean single cover,30.4,2046,2013
+11/5/2013,Glycine max L. (*),210,16,F,Soybean single cover,30.6,2054,2013
+11/5/2013,Glycine max L. (*),308,16,F,Soybean single cover,14.7,986,2013
+11/5/2013,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,46,3089,2013
+11/5/2013,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,40.1,2698,2013
+11/5/2013,Glycine max L. (*),202,12,E,Corn - Soybean,41.1,2763,2013
+11/5/2013,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,45,3025,2013
+11/5/2013,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,40.1,2698,2013
+11/5/2013,Glycine max L. (*),419,19,G,Soybean,21.3,1433,2013
+11/5/2013,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,37.1,2497,2013
+11/5/2013,Glycine max L. (*),416,16,F,Soybean single cover,30.9,2074,2013
+11/5/2013,Glycine max L. (*),103,19,G,Soybean,24.7,1662,2013
+11/5/2013,Glycine max L. (*),218,19,G,Soybean,34.6,2327,2013
+11/5/2013,Glycine max L. (*),315,19,G,Soybean,16.5,1107,2013
+11/5/2013,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,35.7,2399,2013
+11/5/2013,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,53.4,3588,2013
+11/5/2013,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,40.6,2732,2013
+11/5/2013,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,37.7,2535,2013
+11/5/2013,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,43.1,2899,2013
+11/5/2013,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,39.1,2630,2013
+11/5/2013,Glycine max L. (*),109,12,E,Corn - Soybean,50.3,3378,2013
+10/30/2013,Zea mays L. (*),319,13,E,Soybean - Corn,66.8,4192,2013
+10/30/2013,Zea mays L. (*),212,13,E,Soybean - Corn,45.2,2832,2013
+10/30/2013,Zea mays L. (*),113,13,E,Soybean - Corn,91.2,5722,2013
+10/30/2013,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,66.3,4160,2013
+10/30/2013,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,47.9,3003,2013
+10/30/2013,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,21.8,1370,2013
+10/30/2013,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,79.5,4985,2013
+10/30/2013,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,94.6,5937,2013
+10/30/2013,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,85.3,5353,2013
+10/30/2013,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,77.9,4888,2013
+10/30/2013,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,64.8,4067,2013
+10/30/2013,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,81.8,5130,2013
+10/30/2013,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,99,6213,2013
+10/30/2013,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,94.9,5954,2013
+10/30/2013,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,103.2,6472,2013
+10/30/2013,Zea mays L. (*),418,18,G,Corn,33.1,2076,2013
+10/30/2013,Zea mays L. (*),311,18,G,Corn,42.3,2657,2013
+10/30/2013,Zea mays L. (*),208,18,G,Corn,29.1,1824,2013
+10/30/2013,Zea mays L. (*),108,18,G,Corn,29.2,1833,2013
+10/30/2013,Zea mays L. (*),415,15,F,Corn single cover,39.1,2453,2013
+10/30/2013,Zea mays L. (*),301,15,F,Corn single cover,73.2,4591,2013
+10/30/2013,Zea mays L. (*),213,15,F,Corn single cover,45.2,2835,2013
+10/30/2013,Zea mays L. (*),112,15,F,Corn single cover,82.1,5150,2013
+10/30/2013,Zea mays L. (*),413,13,E,Soybean - Corn,59,3702,2013
+7/24/2013,Triticum aestivum L. (*),302,17,F,Wheat single cover,6.6,442,2013
+7/24/2013,Triticum aestivum L. (*),120,20,G,Wheat,6.6,443,2013
+7/24/2013,Triticum aestivum L. (*),215,20,G,Wheat,12.3,829,2013
+7/24/2013,Triticum aestivum L. (*),318,20,G,Wheat,5.4,365,2013
+7/24/2013,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,28.9,1939,2013
+7/24/2013,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,20.8,1397,2013
+7/24/2013,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,31.8,2135,2013
+7/24/2013,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,44.3,2980,2013
+7/24/2013,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,28.1,1890,2013
+7/24/2013,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,36.6,2457,2013
+7/24/2013,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,30.9,2077,2013
+7/24/2013,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,32.3,2173,2013
+7/24/2013,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,39.3,2640,2013
+7/24/2013,Triticum aestivum L. (*),420,20,G,Wheat,5.6,377,2013
+7/24/2013,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,38.4,2584,2013
+7/24/2013,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,36.8,2473,2013
+7/24/2013,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,42.8,2874,2013
+7/24/2013,Triticum aestivum L. (*),116,17,F,Wheat single cover,9.2,615,2013
+7/24/2013,Triticum aestivum L. (*),211,17,F,Wheat single cover,7,473,2013
+7/24/2013,Triticum aestivum L. (*),417,17,F,Wheat single cover,3.9,263,2013
+11/8/2012,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,66.9,4198,2012
+11/8/2012,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,59.2,3713,2012
+11/8/2012,Zea mays L. (*),108,18,G,Corn,48.4,3035,2012
+11/8/2012,Zea mays L. (*),109,12,E,Corn - Soybean,87,5458,2012
+11/8/2012,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,138.8,8706,2012
+11/8/2012,Zea mays L. (*),112,15,F,Corn single cover,76.8,4820,2012
+11/8/2012,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,76,4767,2012
+11/8/2012,Zea mays L. (*),202,12,E,Corn - Soybean,48.4,3036,2012
+11/8/2012,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,64.2,4030,2012
+11/8/2012,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,62.4,3918,2012
+11/8/2012,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,71,4454,2012
+11/8/2012,Zea mays L. (*),208,18,G,Corn,50.3,3154,2012
+11/8/2012,Zea mays L. (*),213,15,F,Corn single cover,61.8,3879,2012
+11/8/2012,Zea mays L. (*),301,15,F,Corn single cover,78.4,4917,2012
+11/8/2012,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,56.9,3569,2012
+11/8/2012,Zea mays L. (*),311,18,G,Corn,43.2,2710,2012
+11/8/2012,Zea mays L. (*),313,12,E,Corn - Soybean,55.1,3454,2012
+11/8/2012,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,61.9,3886,2012
+11/8/2012,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,72.9,4572,2012
+11/8/2012,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,58.9,3696,2012
+11/8/2012,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,61.5,3858,2012
+11/8/2012,Zea mays L. (*),412,12,E,Corn - Soybean,77.9,4886,2012
+11/8/2012,Zea mays L. (*),415,15,F,Corn single cover,39.1,2453,2012
+11/8/2012,Zea mays L. (*),418,18,G,Corn,39.6,2488,2012
+10/28/2012,Glycine max L. (*),419,19,G,Soybean,12.4,834,2012
+10/28/2012,Glycine max L. (*),101,16,F,Soybean single cover,7.8,526,2012
+10/28/2012,Glycine max L. (*),103,19,G,Soybean,5.9,396,2012
+10/28/2012,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,6.1,408,2012
+10/28/2012,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,6,402,2012
+10/28/2012,Glycine max L. (*),113,13,E,Soybean - Corn,22.6,1520,2012
+10/28/2012,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,6.6,445,2012
+10/28/2012,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,14.6,982,2012
+10/28/2012,Glycine max L. (*),210,16,F,Soybean single cover,4.9,331,2012
+10/28/2012,Glycine max L. (*),212,13,E,Soybean - Corn,6.6,443,2012
+10/28/2012,Glycine max L. (*),218,19,G,Soybean,12.9,867,2012
+10/28/2012,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,13.6,916,2012
+10/28/2012,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,13.1,878,2012
+10/28/2012,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,14.7,990,2012
+10/28/2012,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,9,608,2012
+10/28/2012,Glycine max L. (*),308,16,F,Soybean single cover,7.3,492,2012
+10/28/2012,Glycine max L. (*),315,19,G,Soybean,9,607,2012
+10/28/2012,Glycine max L. (*),319,13,E,Soybean - Corn,15,1007,2012
+10/28/2012,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,16.9,1137,2012
+10/28/2012,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,1,66,2012
+10/28/2012,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,14.4,968,2012
+10/28/2012,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,14.1,946,2012
+10/28/2012,Glycine max L. (*),413,13,E,Soybean - Corn,16.1,1085,2012
+10/28/2012,Glycine max L. (*),416,16,F,Soybean single cover,8.8,592,2012
+7/5/2012,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,34.8,2342,2012
+7/5/2012,Triticum aestivum L. (*),420,20,G,Wheat,21.5,1444,2012
+7/5/2012,Triticum aestivum L. (*),417,17,F,Wheat single cover,31.7,2129,2012
+7/5/2012,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,26.7,1794,2012
+7/5/2012,Triticum aestivum L. (*),411,11,D,Wheat - Corn - Soybean,34.8,2337,2012
+7/5/2012,Triticum aestivum L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,41.3,2778,2012
+7/5/2012,Triticum aestivum L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,40.9,2747,2012
+7/5/2012,Triticum aestivum L. (*),318,20,G,Wheat,21.3,1430,2012
+7/5/2012,Triticum aestivum L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,38.1,2559,2012
+7/5/2012,Triticum aestivum L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,31.3,2102,2012
+7/5/2012,Triticum aestivum L. (*),309,11,D,Wheat - Corn - Soybean,31.7,2130,2012
+7/5/2012,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,27.3,1833,2012
+7/5/2012,Triticum aestivum L. (*),302,17,F,Wheat single cover,32.6,2193,2012
+7/5/2012,Triticum aestivum L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,42,2822,2012
+7/5/2012,Triticum aestivum L. (*),216,11,D,Wheat - Corn - Soybean,23,1545,2012
+7/5/2012,Triticum aestivum L. (*),215,20,G,Wheat,18.2,1222,2012
+7/5/2012,Triticum aestivum L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,35.7,2402,2012
+7/5/2012,Triticum aestivum L. (*),211,17,F,Wheat single cover,32.4,2180,2012
+7/5/2012,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,17.5,1173,2012
+7/5/2012,Triticum aestivum L. (*),120,20,G,Wheat,23.2,1562,2012
+7/5/2012,Triticum aestivum L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,38.9,2615,2012
+7/5/2012,Triticum aestivum L. (*),110,11,D,Wheat - Corn - Soybean,38.1,2562,2012
+7/5/2012,Triticum aestivum L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,46.8,3147,2012
+7/5/2012,Triticum aestivum L. (*),116,17,F,Wheat single cover,27.1,1824,2012
+11/19/2011,Zea mays L. (*),418,18,G,Corn,47.9,3003,2011
+11/19/2011,Zea mays L. (*),311,18,G,Corn,45.2,2836,2011
+11/19/2011,Zea mays L. (*),208,18,G,Corn,38.3,2401,2011
+11/19/2011,Zea mays L. (*),108,18,G,Corn,36.3,2277,2011
+11/19/2011,Zea mays L. (*),415,15,F,Corn single cover,15.5,975,2011
+11/19/2011,Zea mays L. (*),301,15,F,Corn single cover,63.8,4004,2011
+11/19/2011,Zea mays L. (*),213,15,F,Corn single cover,38.9,2442,2011
+11/19/2011,Zea mays L. (*),112,15,F,Corn single cover,62.2,3902,2011
+11/19/2011,Zea mays L. (*),413,13,E,Soybean - Corn,63.7,3997,2011
+11/19/2011,Zea mays L. (*),319,13,E,Soybean - Corn,81.9,5138,2011
+11/19/2011,Zea mays L. (*),212,13,E,Soybean - Corn,62.5,3920,2011
+11/19/2011,Zea mays L. (*),113,13,E,Soybean - Corn,108,6777,2011
+11/19/2011,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,57.2,3589,2011
+11/19/2011,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,59.6,3737,2011
+11/19/2011,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,98.9,6208,2011
+11/19/2011,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,63.3,3974,2011
+11/19/2011,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,107.3,6732,2011
+11/19/2011,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,87.8,5506,2011
+11/19/2011,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,114.3,7174,2011
+11/19/2011,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,112.1,7035,2011
+11/19/2011,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,90.1,5655,2011
+11/19/2011,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,77.9,4886,2011
+11/19/2011,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,117.2,7351,2011
+11/19/2011,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,129.7,8136,2011
+10/25/2011,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,39.6,2661,2011
+10/25/2011,Glycine max L. (*),419,19,G,Soybean,40,2686,2011
+10/25/2011,Glycine max L. (*),315,19,G,Soybean,31.8,2136,2011
+10/25/2011,Glycine max L. (*),218,19,G,Soybean,40.2,2703,2011
+10/25/2011,Glycine max L. (*),103,19,G,Soybean,34.7,2332,2011
+10/25/2011,Glycine max L. (*),416,16,F,Soybean single cover,40.2,2705,2011
+10/25/2011,Glycine max L. (*),308,16,F,Soybean single cover,17.6,1181,2011
+10/25/2011,Glycine max L. (*),210,16,F,Soybean single cover,43.2,2901,2011
+10/25/2011,Glycine max L. (*),101,16,F,Soybean single cover,25.6,1721,2011
+10/25/2011,Glycine max L. (*),414,14,E,Wheat - Soybean,31.9,2141,2011
+10/25/2011,Glycine max L. (*),304,14,E,Wheat - Soybean,27.2,1829,2011
+10/25/2011,Glycine max L. (*),204,14,E,Wheat - Soybean,23.2,1563,2011
+10/25/2011,Glycine max L. (*),115,14,E,Wheat - Soybean,35.7,2403,2011
+10/25/2011,Glycine max L. (*),412,12,E,Corn - Soybean,44.3,2976,2011
+10/25/2011,Glycine max L. (*),313,12,E,Corn - Soybean,45.5,3058,2011
+10/25/2011,Glycine max L. (*),202,12,E,Corn - Soybean,33.8,2274,2011
+10/25/2011,Glycine max L. (*),109,12,E,Corn - Soybean,40.6,2727,2011
+10/25/2011,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,41,2759,2011
+10/25/2011,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,41.2,2772,2011
+10/25/2011,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,47.9,3220,2011
+10/25/2011,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,44.7,3005,2011
+10/25/2011,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,52.7,3542,2011
+10/25/2011,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,49.5,3330,2011
+10/25/2011,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,49.2,3307,2011
+10/25/2011,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,46.3,3112,2011
+10/25/2011,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,40.5,2724,2011
+10/25/2011,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,49,3296,2011
+10/25/2011,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,42.9,2882,2011
+8/2/2011,Triticum aestivum L. (*),211,17,F,Wheat single cover,34.4,2310,2011
+8/2/2011,Triticum aestivum L. (*),116,17,F,Wheat single cover,30.2,2029,2011
+8/2/2011,Triticum aestivum L. (*),420,20,G,Wheat,33.6,2257,2011
+8/2/2011,Triticum aestivum L. (*),318,20,G,Wheat,29.6,1989,2011
+8/2/2011,Triticum aestivum L. (*),215,20,G,Wheat,29.6,1991,2011
+8/2/2011,Triticum aestivum L. (*),120,20,G,Wheat,31.2,2098,2011
+8/2/2011,Triticum aestivum L. (*),417,17,F,Wheat single cover,35.1,2359,2011
+8/2/2011,Triticum aestivum L. (*),302,17,F,Wheat single cover,33.9,2279,2011
+8/2/2011,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,43.1,2897,2011
+8/2/2011,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,37.9,2546,2011
+8/2/2011,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,45.2,3035,2011
+8/2/2011,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,32.8,2202,2011
+8/2/2011,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,27.7,1859,2011
+8/2/2011,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,46.8,3149,2011
+8/2/2011,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,34.7,2336,2011
+8/2/2011,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,32.3,2169,2011
+8/2/2011,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,34.2,2301,2011
+8/2/2011,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,61.6,4140,2011
+8/2/2011,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,23.4,1575,2011
+8/2/2011,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,29.4,1974,2011
+10/20/2010,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,124.3,7801,2010
+10/20/2010,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,82.2,5154,2010
+10/20/2010,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,63.1,3959,2010
+10/20/2010,Zea mays L. (*),418,18,G,Corn,26.7,1672,2010
+10/20/2010,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,26.7,1675,2010
+10/20/2010,Zea mays L. (*),213,15,F,Corn single cover,40.2,2519,2010
+10/20/2010,Zea mays L. (*),301,15,F,Corn single cover,65,4077,2010
+10/20/2010,Zea mays L. (*),415,15,F,Corn single cover,15.6,979,2010
+10/20/2010,Zea mays L. (*),108,18,G,Corn,37.8,2371,2010
+10/20/2010,Zea mays L. (*),208,18,G,Corn,40.5,2542,2010
+10/20/2010,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,59.1,3705,2010
+10/20/2010,Zea mays L. (*),311,18,G,Corn,37.9,2380,2010
+10/20/2010,Zea mays L. (*),112,15,F,Corn single cover,47.8,3001,2010
+10/20/2010,Zea mays L. (*),412,12,E,Corn - Soybean,72.1,4521,2010
+10/20/2010,Zea mays L. (*),313,12,E,Corn - Soybean,43.7,2741,2010
+10/20/2010,Zea mays L. (*),202,12,E,Corn - Soybean,37,2324,2010
+10/20/2010,Zea mays L. (*),109,12,E,Corn - Soybean,70.6,4430,2010
+10/20/2010,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,127,7967,2010
+10/20/2010,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,99.8,6258,2010
+10/20/2010,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,93.9,5890,2010
+10/20/2010,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,114.8,7205,2010
+10/20/2010,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,106.4,6678,2010
+10/20/2010,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,105.6,6627,2010
+10/20/2010,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,113.9,7149,2010
+10/8/2010,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,38.8,2608,2010
+10/8/2010,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,36,2423,2010
+10/8/2010,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,38.2,2568,2010
+10/8/2010,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,35.4,2378,2010
+10/8/2010,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,38.7,2598,2010
+10/8/2010,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,21.6,1454,2010
+10/8/2010,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,39.1,2626,2010
+10/8/2010,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,38.7,2599,2010
+10/8/2010,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,35.7,2397,2010
+10/8/2010,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,43,2893,2010
+10/8/2010,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,,,2010
+10/8/2010,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,47.3,3179,2010
+10/8/2010,Glycine max L. (*),113,13,E,Soybean - Corn,45.6,3065,2010
+10/8/2010,Glycine max L. (*),212,13,E,Soybean - Corn,35.3,2370,2010
+10/8/2010,Glycine max L. (*),319,13,E,Soybean - Corn,35.5,2384,2010
+10/8/2010,Glycine max L. (*),413,13,E,Soybean - Corn,32.3,2173,2010
+10/8/2010,Glycine max L. (*),101,16,F,Soybean single cover,28.7,1930,2010
+10/8/2010,Glycine max L. (*),210,16,F,Soybean single cover,29.4,1974,2010
+10/8/2010,Glycine max L. (*),308,16,F,Soybean single cover,36.4,2449,2010
+10/8/2010,Glycine max L. (*),416,16,F,Soybean single cover,33.9,2277,2010
+10/8/2010,Glycine max L. (*),103,19,G,Soybean,32.2,2163,2010
+10/8/2010,Glycine max L. (*),218,19,G,Soybean,29.8,2002,2010
+10/8/2010,Glycine max L. (*),315,19,G,Soybean,26.8,1803,2010
+10/8/2010,Glycine max L. (*),419,19,G,Soybean,34.4,2314,2010
+7/17/2010,Triticum aestivum L. (*),302,17,F,Wheat single cover,21,1411,2010
+7/17/2010,Triticum aestivum L. (*),420,20,G,Wheat,22.5,1509,2010
+7/17/2010,Triticum aestivum L. (*),318,20,G,Wheat,16.6,1117,2010
+7/17/2010,Triticum aestivum L. (*),215,20,G,Wheat,15.8,1062,2010
+7/17/2010,Triticum aestivum L. (*),120,20,G,Wheat,27.3,1833,2010
+7/17/2010,Triticum aestivum L. (*),417,17,F,Wheat single cover,19.1,1287,2010
+7/17/2010,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,25.6,1722,2010
+7/17/2010,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,32.1,2160,2010
+7/17/2010,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,26.2,1759,2010
+7/17/2010,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,25.2,1692,2010
+7/17/2010,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,28.9,1940,2010
+7/17/2010,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,31.5,2120,2010
+7/17/2010,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,18.3,1227,2010
+7/17/2010,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,26.7,1792,2010
+7/17/2010,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,19.1,1283,2010
+7/17/2010,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,26.2,1761,2010
+7/17/2010,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,21.9,1473,2010
+7/17/2010,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,22.7,1529,2010
+7/17/2010,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,24.9,1676,2010
+7/17/2010,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,12.2,819,2010
+7/17/2010,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,19,1280,2010
+7/17/2010,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,22.4,1509,2010
+7/17/2010,Triticum aestivum L. (*),116,17,F,Wheat single cover,17.5,1176,2010
+7/17/2010,Triticum aestivum L. (*),211,17,F,Wheat single cover,22,1478,2010
+11/17/2009,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,108.6,6815,2009
+11/17/2009,Zea mays L. (*),113,13,E,Soybean - Corn,68.3,4285,2009
+11/17/2009,Zea mays L. (*),212,13,E,Soybean - Corn,40.5,2539,2009
+11/17/2009,Zea mays L. (*),319,13,E,Soybean - Corn,58.7,3684,2009
+11/17/2009,Zea mays L. (*),413,13,E,Soybean - Corn,,,2009
+11/17/2009,Zea mays L. (*),112,15,F,Corn single cover,59.5,3733,2009
+11/17/2009,Zea mays L. (*),213,15,F,Corn single cover,35.1,2204,2009
+11/17/2009,Zea mays L. (*),301,15,F,Corn single cover,54.4,3411,2009
+11/17/2009,Zea mays L. (*),415,15,F,Corn single cover,,,2009
+11/17/2009,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,74.8,4693,2009
+11/17/2009,Zea mays L. (*),108,18,G,Corn,56.7,3557,2009
+11/17/2009,Zea mays L. (*),208,18,G,Corn,38.5,2415,2009
+11/17/2009,Zea mays L. (*),311,18,G,Corn,33.4,2093,2009
+11/17/2009,Zea mays L. (*),418,18,G,Corn,30.6,1921,2009
+11/17/2009,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,32.3,2028,2009
+11/17/2009,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,35.5,2228,2009
+11/17/2009,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,48.5,3042,2009
+11/17/2009,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,,,2009
+11/17/2009,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,54,3390,2009
+11/17/2009,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,89.3,5602,2009
+11/17/2009,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,84.8,5318,2009
+11/17/2009,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,49.3,3094,2009
+11/17/2009,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,40,2511,2009
+11/17/2009,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,58.8,3690,2009
+10/22/2009,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,28.7,1926,2009
+10/22/2009,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,,,2009
+10/22/2009,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,45.4,3050,2009
+10/22/2009,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,33,2215,2009
+10/22/2009,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,42.5,2856,2009
+10/22/2009,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,35,2350,2009
+10/22/2009,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,43,2887,2009
+10/22/2009,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,39.7,2671,2009
+10/22/2009,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,32.6,2189,2009
+10/22/2009,Glycine max L. (*),109,12,E,Corn - Soybean,,,2009
+10/22/2009,Glycine max L. (*),202,12,E,Corn - Soybean,32.6,2191,2009
+10/22/2009,Glycine max L. (*),313,12,E,Corn - Soybean,38.5,2590,2009
+10/22/2009,Glycine max L. (*),412,12,E,Corn - Soybean,45.4,3053,2009
+10/22/2009,Glycine max L. (*),115,14,E,Wheat - Soybean,39.1,2627,2009
+10/22/2009,Glycine max L. (*),204,14,E,Wheat - Soybean,29.9,2011,2009
+10/22/2009,Glycine max L. (*),304,14,E,Wheat - Soybean,29,1948,2009
+10/22/2009,Glycine max L. (*),414,14,E,Wheat - Soybean,34.5,2320,2009
+10/22/2009,Glycine max L. (*),101,16,F,Soybean single cover,31.9,2143,2009
+10/22/2009,Glycine max L. (*),210,16,F,Soybean single cover,34.3,2306,2009
+10/22/2009,Glycine max L. (*),308,16,F,Soybean single cover,31.5,2118,2009
+10/22/2009,Glycine max L. (*),416,16,F,Soybean single cover,30.4,2044,2009
+10/22/2009,Glycine max L. (*),103,19,G,Soybean,32.8,2203,2009
+10/22/2009,Glycine max L. (*),218,19,G,Soybean,35.6,2393,2009
+10/22/2009,Glycine max L. (*),315,19,G,Soybean,27.3,1834,2009
+10/22/2009,Glycine max L. (*),419,19,G,Soybean,36.2,2431,2009
+10/22/2009,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,40.7,2733,2009
+10/22/2009,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,44.7,3005,2009
+10/22/2009,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,36.9,2480,2009
+7/24/2009,Triticum aestivum L. (*),116,17,F,Wheat single cover,18.5,1244,2009
+7/24/2009,Triticum aestivum L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,37.8,2538,2009
+7/24/2009,Triticum aestivum L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,26,1751,2009
+7/24/2009,Triticum aestivum L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,28.1,1888,2009
+7/24/2009,Triticum aestivum L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,25.5,1711,2009
+7/24/2009,Triticum aestivum L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,27.5,1847,2009
+7/24/2009,Triticum aestivum L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,28.2,1896,2009
+7/24/2009,Triticum aestivum L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,27.9,1872,2009
+7/24/2009,Triticum aestivum L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,33.8,2272,2009
+7/24/2009,Triticum aestivum L. (*),110,11,D,Wheat - Corn - Soybean,34.9,2344,2009
+7/24/2009,Triticum aestivum L. (*),216,11,D,Wheat - Corn - Soybean,16.9,1133,2009
+7/24/2009,Triticum aestivum L. (*),309,11,D,Wheat - Corn - Soybean,25,1683,2009
+7/24/2009,Triticum aestivum L. (*),411,11,D,Wheat - Corn - Soybean,,,2009
+7/24/2009,Triticum aestivum L. (*),211,17,F,Wheat single cover,32.5,2184,2009
+7/24/2009,Triticum aestivum L. (*),302,17,F,Wheat single cover,36.1,2428,2009
+7/24/2009,Triticum aestivum L. (*),417,17,F,Wheat single cover,21.7,1459,2009
+7/24/2009,Triticum aestivum L. (*),120,20,G,Wheat,22.6,1520,2009
+7/24/2009,Triticum aestivum L. (*),215,20,G,Wheat,21.2,1428,2009
+7/24/2009,Triticum aestivum L. (*),318,20,G,Wheat,16.6,1114,2009
+7/24/2009,Triticum aestivum L. (*),420,20,G,Wheat,,,2009
+10/31/2008,Zea mays L. (*),415,15,F,Corn single cover,25.8,1617,2008
+10/31/2008,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,49.7,3119,2008
+10/31/2008,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,51.3,3216,2008
+10/31/2008,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,74,4642,2008
+10/31/2008,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,58.5,3671,2008
+10/31/2008,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,48.8,3059,2008
+10/31/2008,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,62.6,3928,2008
+10/31/2008,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,42.9,2693,2008
+10/31/2008,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,58.8,3687,2008
+10/31/2008,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,35.4,2221,2008
+10/31/2008,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,52.6,3300,2008
+10/31/2008,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,41.8,2625,2008
+10/31/2008,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,59,3702,2008
+10/31/2008,Zea mays L. (*),109,12,E,Corn - Soybean,88.8,5569,2008
+10/31/2008,Zea mays L. (*),202,12,E,Corn - Soybean,61.1,3833,2008
+10/31/2008,Zea mays L. (*),313,12,E,Corn - Soybean,65.6,4118,2008
+10/31/2008,Zea mays L. (*),412,12,E,Corn - Soybean,57.6,3613,2008
+10/31/2008,Zea mays L. (*),112,15,F,Corn single cover,69.1,4337,2008
+10/31/2008,Zea mays L. (*),213,15,F,Corn single cover,41.7,2617,2008
+10/31/2008,Zea mays L. (*),301,15,F,Corn single cover,62.9,3948,2008
+10/31/2008,Zea mays L. (*),418,18,G,Corn,47.6,2987,2008
+10/31/2008,Zea mays L. (*),311,18,G,Corn,51.9,3256,2008
+10/31/2008,Zea mays L. (*),208,18,G,Corn,39.1,2456,2008
+10/31/2008,Zea mays L. (*),108,18,G,Corn,49.8,3122,2008
+10/15/2008,Glycine max L. (*),413,13,E,Soybean - Corn,16,1079,2008
+10/15/2008,Glycine max L. (*),419,19,G,Soybean,11.7,784,2008
+10/15/2008,Glycine max L. (*),315,19,G,Soybean,13.4,903,2008
+10/15/2008,Glycine max L. (*),218,19,G,Soybean,15.1,1012,2008
+10/15/2008,Glycine max L. (*),103,19,G,Soybean,16.6,1116,2008
+10/15/2008,Glycine max L. (*),416,16,F,Soybean single cover,6,402,2008
+10/15/2008,Glycine max L. (*),308,16,F,Soybean single cover,15.1,1017,2008
+10/15/2008,Glycine max L. (*),210,16,F,Soybean single cover,10.6,716,2008
+10/15/2008,Glycine max L. (*),101,16,F,Soybean single cover,16.5,1110,2008
+10/15/2008,Glycine max L. (*),319,13,E,Soybean - Corn,14.2,954,2008
+10/15/2008,Glycine max L. (*),212,13,E,Soybean - Corn,17.8,1198,2008
+10/15/2008,Glycine max L. (*),113,13,E,Soybean - Corn,27.8,1868,2008
+10/15/2008,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,17.3,1163,2008
+10/15/2008,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,12.3,824,2008
+10/15/2008,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,17.7,1189,2008
+10/15/2008,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,25.8,1733,2008
+10/15/2008,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,18.7,1260,2008
+10/15/2008,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,10.1,678,2008
+10/15/2008,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,18.3,1232,2008
+10/15/2008,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,16.7,1126,2008
+10/15/2008,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,19.1,1287,2008
+10/15/2008,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,13.7,921,2008
+10/15/2008,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,15.5,1043,2008
+10/15/2008,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,22,1482,2008
+7/24/2008,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,33.2,2230,2008
+7/24/2008,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,14.9,1003,2008
+7/24/2008,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,17.4,1170,2008
+7/24/2008,Triticum aestivum L. (*),116,17,F,Wheat single cover,16.4,1101,2008
+7/24/2008,Triticum aestivum L. (*),211,17,F,Wheat single cover,17.7,1189,2008
+7/24/2008,Triticum aestivum L. (*),302,17,F,Wheat single cover,19,1278,2008
+7/24/2008,Triticum aestivum L. (*),417,17,F,Wheat single cover,12,804,2008
+7/24/2008,Triticum aestivum L. (*),120,20,G,Wheat,14.9,1002,2008
+7/24/2008,Triticum aestivum L. (*),215,20,G,Wheat,18.7,1260,2008
+7/24/2008,Triticum aestivum L. (*),318,20,G,Wheat,8.5,573,2008
+7/24/2008,Triticum aestivum L. (*),420,20,G,Wheat,15.4,1034,2008
+7/24/2008,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,27,1814,2008
+7/24/2008,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,29,1950,2008
+7/24/2008,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,17,1145,2008
+7/24/2008,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,22.5,1512,2008
+7/24/2008,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,27.3,1835,2008
+7/24/2008,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,19.4,1303,2008
+7/24/2008,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,24.5,1649,2008
+7/24/2008,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,22.6,1520,2008
+7/24/2008,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,27.3,1835,2008
+7/24/2008,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,14.2,952,2008
+7/24/2008,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,24.5,1649,2008
+7/24/2008,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,23.9,1605,2008
+7/24/2008,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,23.7,1592,2008
+11/2/2007,Zea mays L. (*),213,15,F,Corn single cover,15.3,962,2007
+11/2/2007,Zea mays L. (*),208,18,G,Corn,11,687,2007
+11/2/2007,Zea mays L. (*),108,18,G,Corn,19.9,1252,2007
+11/2/2007,Zea mays L. (*),415,15,F,Corn single cover,2,128,2007
+11/2/2007,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,22.8,1428,2007
+11/2/2007,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,70.1,4398,2007
+11/2/2007,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,53.4,3352,2007
+11/2/2007,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,38.7,2431,2007
+11/2/2007,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,17.8,1115,2007
+11/2/2007,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,67,4205,2007
+11/2/2007,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,89.2,5597,2007
+11/2/2007,Zea mays L. (*),301,15,F,Corn single cover,11.4,715,2007
+11/2/2007,Zea mays L. (*),418,18,G,Corn,4.5,281,2007
+11/2/2007,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,33.1,2079,2007
+11/2/2007,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,92.3,5790,2007
+11/2/2007,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,23.6,1482,2007
+11/2/2007,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,40,2508,2007
+11/2/2007,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,55.3,3468,2007
+11/2/2007,Zea mays L. (*),113,13,E,Soybean - Corn,73.8,4630,2007
+11/2/2007,Zea mays L. (*),212,13,E,Soybean - Corn,18.4,1152,2007
+11/2/2007,Zea mays L. (*),319,13,E,Soybean - Corn,29.5,1850,2007
+11/2/2007,Zea mays L. (*),413,13,E,Soybean - Corn,17.6,1101,2007
+11/2/2007,Zea mays L. (*),112,15,F,Corn single cover,75.8,4757,2007
+11/2/2007,Zea mays L. (*),311,18,G,Corn,7.1,447,2007
+10/26/2007,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,26.2,1764,2007
+10/26/2007,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,36.9,2481,2007
+10/26/2007,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,29,1951,2007
+10/26/2007,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,26.9,1808,2007
+10/26/2007,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,32.5,2188,2007
+10/26/2007,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,26.7,1794,2007
+10/26/2007,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,29.2,1965,2007
+10/26/2007,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,25.2,1696,2007
+10/26/2007,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,23.6,1590,2007
+10/26/2007,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,26.5,1779,2007
+10/26/2007,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,30.5,2050,2007
+10/26/2007,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,28.2,1894,2007
+10/26/2007,Glycine max L. (*),109,12,E,Corn - Soybean,33.2,2230,2007
+10/26/2007,Glycine max L. (*),202,12,E,Corn - Soybean,28.1,1892,2007
+10/26/2007,Glycine max L. (*),313,12,E,Corn - Soybean,27.6,1857,2007
+10/26/2007,Glycine max L. (*),412,12,E,Corn - Soybean,31.7,2128,2007
+10/26/2007,Glycine max L. (*),115,14,E,Wheat - Soybean,22.7,1528,2007
+10/26/2007,Glycine max L. (*),204,14,E,Wheat - Soybean,26.6,1791,2007
+10/26/2007,Glycine max L. (*),304,14,E,Wheat - Soybean,27.3,1838,2007
+10/26/2007,Glycine max L. (*),414,14,E,Wheat - Soybean,23.9,1606,2007
+10/26/2007,Glycine max L. (*),101,16,F,Soybean single cover,25.4,1706,2007
+10/26/2007,Glycine max L. (*),210,16,F,Soybean single cover,19.4,1302,2007
+10/26/2007,Glycine max L. (*),308,16,F,Soybean single cover,23.7,1592,2007
+10/26/2007,Glycine max L. (*),416,16,F,Soybean single cover,17.6,1180,2007
+10/26/2007,Glycine max L. (*),103,19,G,Soybean,25.8,1731,2007
+10/26/2007,Glycine max L. (*),218,19,G,Soybean,24.8,1668,2007
+10/26/2007,Glycine max L. (*),315,19,G,Soybean,23.2,1560,2007
+10/26/2007,Glycine max L. (*),419,19,G,Soybean,24.2,1626,2007
+7/13/2007,Triticum aestivum L. (*),420,20,G,Wheat,37.9,2546,2007
+7/13/2007,Triticum aestivum L. (*),318,20,G,Wheat,28,1880,2007
+7/13/2007,Triticum aestivum L. (*),215,20,G,Wheat,23.6,1586,2007
+7/13/2007,Triticum aestivum L. (*),120,20,G,Wheat,27.6,1855,2007
+7/13/2007,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,23.9,1607,2007
+7/13/2007,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,22.8,1532,2007
+7/13/2007,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,23.4,1574,2007
+7/13/2007,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,22.2,1491,2007
+7/13/2007,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,26.5,1783,2007
+7/13/2007,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,26,1750,2007
+7/13/2007,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,22.5,1516,2007
+7/13/2007,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,13.8,924,2007
+7/13/2007,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,18.1,1217,2007
+7/13/2007,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,19.4,1301,2007
+7/13/2007,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,18.5,1246,2007
+7/13/2007,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,26.5,1783,2007
+7/13/2007,Triticum aestivum L. (*),417,17,F,Wheat single cover,32.3,2172,2007
+7/13/2007,Triticum aestivum L. (*),302,17,F,Wheat single cover,27.9,1876,2007
+7/13/2007,Triticum aestivum L. (*),211,17,F,Wheat single cover,25,1679,2007
+7/13/2007,Triticum aestivum L. (*),116,17,F,Wheat single cover,20.4,1368,2007
+10/31/2006,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,37.1,2493,2006
+10/31/2006,Glycine max L. (*),413,13,E,Soybean - Corn,36.6,2462,2006
+10/31/2006,Glycine max L. (*),416,16,F,Soybean single cover,37.3,2505,2006
+10/31/2006,Glycine max L. (*),419,19,G,Soybean,33.7,2265,2006
+10/31/2006,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,43.8,2941,2006
+10/31/2006,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,46.7,3136,2006
+10/31/2006,Glycine max L. (*),218,19,G,Soybean,35.7,2402,2006
+10/31/2006,Glycine max L. (*),212,13,E,Soybean - Corn,37.4,2513,2006
+10/31/2006,Glycine max L. (*),210,16,F,Soybean single cover,41.2,2769,2006
+10/31/2006,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,49.1,3300,2006
+10/31/2006,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,40.2,2701,2006
+10/31/2006,Glycine max L. (*),113,13,E,Soybean - Corn,46.3,3109,2006
+10/31/2006,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,41.3,2773,2006
+10/31/2006,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,48,3229,2006
+10/31/2006,Glycine max L. (*),103,19,G,Soybean,40.4,2716,2006
+10/31/2006,Glycine max L. (*),101,16,F,Soybean single cover,33.8,2270,2006
+10/31/2006,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,38.7,2603,2006
+10/31/2006,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,43.2,2902,2006
+10/31/2006,Glycine max L. (*),308,16,F,Soybean single cover,41.7,2802,2006
+10/31/2006,Glycine max L. (*),315,19,G,Soybean,40,2686,2006
+10/31/2006,Glycine max L. (*),319,13,E,Soybean - Corn,45.5,3057,2006
+10/31/2006,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,45.9,3087,2006
+10/31/2006,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,44.7,3003,2006
+10/31/2006,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,45.2,3040,2006
+10/16/2006,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,138.9,8717,2006
+10/16/2006,Zea mays L. (*),418,18,G,Corn,70.1,4400,2006
+10/16/2006,Zea mays L. (*),415,15,F,Corn single cover,82.2,5158,2006
+10/16/2006,Zea mays L. (*),412,12,E,Corn - Soybean,111.4,6990,2006
+10/16/2006,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,92,5773,2006
+10/16/2006,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,107.7,6756,2006
+10/16/2006,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,95.7,6002,2006
+10/16/2006,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,93.7,5876,2006
+10/16/2006,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,89,5586,2006
+10/16/2006,Zea mays L. (*),313,12,E,Corn - Soybean,71.3,4472,2006
+10/16/2006,Zea mays L. (*),311,18,G,Corn,58.1,3647,2006
+10/16/2006,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,84,5269,2006
+10/16/2006,Zea mays L. (*),301,15,F,Corn single cover,97.2,6101,2006
+10/16/2006,Zea mays L. (*),213,15,F,Corn single cover,90.2,5658,2006
+10/16/2006,Zea mays L. (*),208,18,G,Corn,56.3,3530,2006
+10/16/2006,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,79.3,4977,2006
+10/16/2006,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,84.1,5274,2006
+10/16/2006,Zea mays L. (*),202,12,E,Corn - Soybean,72.1,4522,2006
+10/16/2006,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,76.6,4807,2006
+10/16/2006,Zea mays L. (*),112,15,F,Corn single cover,121.3,7608,2006
+10/16/2006,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,160,10041,2006
+10/16/2006,Zea mays L. (*),109,12,E,Corn - Soybean,129.2,8105,2006
+10/16/2006,Zea mays L. (*),108,18,G,Corn,63.5,3983,2006
+10/16/2006,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,128.9,8086,2006
+7/10/2006,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,25,1678,2006
+7/10/2006,Triticum aestivum L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,36.3,2438,2006
+7/10/2006,Triticum aestivum L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,43.2,2905,2006
+7/10/2006,Triticum aestivum L. (*),420,20,G,Wheat,37.1,2493,2006
+7/10/2006,Triticum aestivum L. (*),417,17,F,Wheat single cover,44.8,3013,2006
+7/10/2006,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,30.2,2033,2006
+7/10/2006,Triticum aestivum L. (*),411,11,D,Wheat - Corn - Soybean,37.5,2519,2006
+7/10/2006,Triticum aestivum L. (*),110,11,D,Wheat - Corn - Soybean,43.2,2901,2006
+7/10/2006,Triticum aestivum L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,45.4,3050,2006
+7/10/2006,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,30.7,2065,2006
+7/10/2006,Triticum aestivum L. (*),116,17,F,Wheat single cover,29,1950,2006
+7/10/2006,Triticum aestivum L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,40.6,2730,2006
+7/10/2006,Triticum aestivum L. (*),120,20,G,Wheat,24.9,1676,2006
+7/10/2006,Triticum aestivum L. (*),318,20,G,Wheat,27.5,1848,2006
+7/10/2006,Triticum aestivum L. (*),211,17,F,Wheat single cover,28.8,1934,2006
+7/10/2006,Triticum aestivum L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,38.9,2618,2006
+7/10/2006,Triticum aestivum L. (*),215,20,G,Wheat,23.9,1609,2006
+7/10/2006,Triticum aestivum L. (*),216,11,D,Wheat - Corn - Soybean,31.3,2103,2006
+7/10/2006,Triticum aestivum L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,39.4,2649,2006
+7/10/2006,Triticum aestivum L. (*),302,17,F,Wheat single cover,31.6,2122,2006
+7/10/2006,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,28.1,1891,2006
+7/10/2006,Triticum aestivum L. (*),309,11,D,Wheat - Corn - Soybean,29.6,1988,2006
+7/10/2006,Triticum aestivum L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,34.1,2290,2006
+7/10/2006,Triticum aestivum L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,36.5,2455,2006
+10/6/2005,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,117.9,7398,2005
+10/6/2005,Zea mays L. (*),418,18,G,Corn,52.8,3313,2005
+10/6/2005,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,102.2,6415,2005
+10/6/2005,Zea mays L. (*),112,15,F,Corn single cover,85.6,5372,2005
+10/6/2005,Zea mays L. (*),113,13,E,Soybean - Corn,93.9,5892,2005
+10/6/2005,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,32.2,2017,2005
+10/6/2005,Zea mays L. (*),208,18,G,Corn,33.4,2098,2005
+10/6/2005,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,77.7,4876,2005
+10/6/2005,Zea mays L. (*),212,13,E,Soybean - Corn,46.3,2902,2005
+10/6/2005,Zea mays L. (*),213,15,F,Corn single cover,50.7,3182,2005
+10/6/2005,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,106.8,6700,2005
+10/6/2005,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,105.2,6598,2005
+10/6/2005,Zea mays L. (*),108,18,G,Corn,27.6,1730,2005
+10/6/2005,Zea mays L. (*),301,15,F,Corn single cover,81.5,5115,2005
+10/6/2005,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,115,7215,2005
+10/6/2005,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,113,7090,2005
+10/6/2005,Zea mays L. (*),311,18,G,Corn,33.7,2116,2005
+10/6/2005,Zea mays L. (*),319,13,E,Soybean - Corn,89.4,5611,2005
+10/6/2005,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,77,4830,2005
+10/6/2005,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,92.5,5806,2005
+10/6/2005,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,120.3,7545,2005
+10/6/2005,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,36.8,2310,2005
+10/6/2005,Zea mays L. (*),413,13,E,Soybean - Corn,61.7,3874,2005
+10/6/2005,Zea mays L. (*),415,15,F,Corn single cover,36.6,2299,2005
+9/20/2005,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,32.3,2173,2005
+9/20/2005,Glycine max L. (*),101,16,F,Soybean single cover,29.4,1976,2005
+9/20/2005,Glycine max L. (*),103,19,G,Soybean,31.8,2137,2005
+9/20/2005,Glycine max L. (*),109,12,E,Corn - Soybean,42,2820,2005
+9/20/2005,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,42.8,2875,2005
+9/20/2005,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,44.1,2962,2005
+9/20/2005,Glycine max L. (*),115,14,E,Wheat - Soybean,29.7,1997,2005
+9/20/2005,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,32.1,2159,2005
+9/20/2005,Glycine max L. (*),419,19,G,Soybean,31.8,2137,2005
+9/20/2005,Glycine max L. (*),416,16,F,Soybean single cover,29,1950,2005
+9/20/2005,Glycine max L. (*),414,14,E,Wheat - Soybean,27.2,1831,2005
+9/20/2005,Glycine max L. (*),412,12,E,Corn - Soybean,35.2,2364,2005
+9/20/2005,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,35.4,2382,2005
+9/20/2005,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,32.6,2188,2005
+9/20/2005,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,30.6,2056,2005
+9/20/2005,Glycine max L. (*),315,19,G,Soybean,25,1680,2005
+9/20/2005,Glycine max L. (*),313,12,E,Corn - Soybean,33.2,2229,2005
+9/20/2005,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,35.7,2400,2005
+9/20/2005,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,40.2,2702,2005
+9/20/2005,Glycine max L. (*),308,16,F,Soybean single cover,27.3,1838,2005
+9/20/2005,Glycine max L. (*),304,14,E,Wheat - Soybean,30.5,2048,2005
+9/20/2005,Glycine max L. (*),218,19,G,Soybean,24.8,1666,2005
+9/20/2005,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,27.5,1847,2005
+9/20/2005,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,26.4,1774,2005
+9/20/2005,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,25.4,1704,2005
+9/20/2005,Glycine max L. (*),210,16,F,Soybean single cover,20.5,1379,2005
+9/20/2005,Glycine max L. (*),204,14,E,Wheat - Soybean,28.9,1945,2005
+9/20/2005,Glycine max L. (*),202,12,E,Corn - Soybean,32,2149,2005
+7/14/2005,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,42.6,2864,2005
+7/14/2005,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,41.9,2817,2005
+7/14/2005,Triticum aestivum L. (*),318,20,G,Wheat,23.2,1558,2005
+7/14/2005,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,34.9,2344,2005
+7/14/2005,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,39.6,2662,2005
+7/14/2005,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,28.3,1899,2005
+7/14/2005,Triticum aestivum L. (*),302,17,F,Wheat single cover,34.5,2318,2005
+7/14/2005,Triticum aestivum L. (*),215,20,G,Wheat,21.7,1459,2005
+7/14/2005,Triticum aestivum L. (*),211,17,F,Wheat single cover,37.5,2521,2005
+7/14/2005,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,38,2557,2005
+7/14/2005,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,32.9,2215,2005
+7/14/2005,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,25.2,1697,2005
+7/14/2005,Triticum aestivum L. (*),120,20,G,Wheat,19.9,1336,2005
+7/14/2005,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,32.7,2196,2005
+7/14/2005,Triticum aestivum L. (*),116,17,F,Wheat single cover,32.3,2168,2005
+7/14/2005,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,54,3632,2005
+7/14/2005,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,40.9,2752,2005
+7/14/2005,Triticum aestivum L. (*),420,20,G,Wheat,35.1,2359,2005
+7/14/2005,Triticum aestivum L. (*),417,17,F,Wheat single cover,48.4,3253,2005
+7/14/2005,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,32.5,2187,2005
+11/16/2004,Zea mays L. (*),108,18,G,Corn,37.5,2356,2004
+11/16/2004,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,138.2,8672,2004
+11/16/2004,Zea mays L. (*),112,15,F,Corn single cover,82,5147,2004
+11/16/2004,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,108.1,6781,2004
+11/16/2004,Zea mays L. (*),109,12,E,Corn - Soybean,93.1,5839,2004
+11/16/2004,Zea mays L. (*),418,18,G,Corn,35.1,2203,2004
+11/16/2004,Zea mays L. (*),415,15,F,Corn single cover,31.8,1993,2004
+11/16/2004,Zea mays L. (*),412,12,E,Corn - Soybean,76.8,4820,2004
+11/16/2004,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,66.2,4153,2004
+11/16/2004,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,136.5,8561,2004
+11/16/2004,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,128,8033,2004
+11/16/2004,Zea mays L. (*),313,12,E,Corn - Soybean,67.8,4256,2004
+11/16/2004,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,143.7,9016,2004
+11/16/2004,Zea mays L. (*),311,18,G,Corn,37,2320,2004
+11/16/2004,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,143.2,8985,2004
+11/16/2004,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,100.4,6300,2004
+11/16/2004,Zea mays L. (*),301,15,F,Corn single cover,91.4,5735,2004
+11/16/2004,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,77.1,4836,2004
+11/16/2004,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,37.6,2356,2004
+11/16/2004,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,64.7,4062,2004
+11/16/2004,Zea mays L. (*),213,15,F,Corn single cover,60.4,3790,2004
+11/16/2004,Zea mays L. (*),208,18,G,Corn,38.4,2408,2004
+11/16/2004,Zea mays L. (*),202,12,E,Corn - Soybean,67.3,4225,2004
+11/16/2004,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,117.2,7352,2004
+10/12/2004,Glycine max L. (*),416,16,F,Soybean single cover,6.5,438,2004
+10/12/2004,Glycine max L. (*),103,19,G,Soybean,39.2,2637,2004
+10/12/2004,Glycine max L. (*),101,16,F,Soybean single cover,38.1,2559,2004
+10/12/2004,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,40.1,2696,2004
+10/12/2004,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,40.1,2698,2004
+10/12/2004,Glycine max L. (*),113,13,E,Soybean - Corn,42.2,2834,2004
+10/12/2004,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,43.7,2934,2004
+10/12/2004,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,40.5,2722,2004
+10/12/2004,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,38.8,2608,2004
+10/12/2004,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,46.4,3118,2004
+10/12/2004,Glycine max L. (*),210,16,F,Soybean single cover,39.1,2631,2004
+10/12/2004,Glycine max L. (*),212,13,E,Soybean - Corn,33.5,2254,2004
+10/12/2004,Glycine max L. (*),218,19,G,Soybean,33,2220,2004
+10/12/2004,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,38.9,2615,2004
+10/12/2004,Glycine max L. (*),308,16,F,Soybean single cover,32.2,2165,2004
+10/12/2004,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,42.7,2873,2004
+10/12/2004,Glycine max L. (*),315,19,G,Soybean,27.9,1873,2004
+10/12/2004,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,41.2,2769,2004
+10/12/2004,Glycine max L. (*),319,13,E,Soybean - Corn,46.5,3124,2004
+10/12/2004,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,37.8,2542,2004
+10/12/2004,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,32.5,2187,2004
+10/12/2004,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,34.4,2310,2004
+10/12/2004,Glycine max L. (*),413,13,E,Soybean - Corn,26,1750,2004
+10/12/2004,Glycine max L. (*),419,19,G,Soybean,13.8,928,2004
+7/15/2004,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,24.7,1659,2004
+7/15/2004,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,27.2,1825,2004
+7/15/2004,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,23.8,1600,2004
+7/15/2004,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,26.2,1760,2004
+7/15/2004,Triticum aestivum L. (*),116,17,F,Wheat single cover,27.6,1853,2004
+7/15/2004,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,23.5,1582,2004
+7/15/2004,Triticum aestivum L. (*),120,20,G,Wheat,13.3,894,2004
+7/15/2004,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,25.9,1743,2004
+7/15/2004,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,31.8,2137,2004
+7/15/2004,Triticum aestivum L. (*),211,17,F,Wheat single cover,33.7,2265,2004
+7/15/2004,Triticum aestivum L. (*),215,20,G,Wheat,10.7,716,2004
+7/15/2004,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,24.5,1649,2004
+7/15/2004,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,22.3,1497,2004
+7/15/2004,Triticum aestivum L. (*),302,17,F,Wheat single cover,27.7,1865,2004
+7/15/2004,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,25.6,1718,2004
+7/15/2004,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,15.8,1062,2004
+7/15/2004,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,23.4,1571,2004
+7/15/2004,Triticum aestivum L. (*),318,20,G,Wheat,13.9,937,2004
+7/15/2004,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,28.1,1891,2004
+7/15/2004,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,23.6,1589,2004
+7/15/2004,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,23.5,1578,2004
+7/15/2004,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,24.3,1636,2004
+7/15/2004,Triticum aestivum L. (*),420,20,G,Wheat,25.9,1739,2004
+7/15/2004,Triticum aestivum L. (*),417,17,F,Wheat single cover,37.8,2542,2004
+11/10/2003,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,130.7,8202,2003
+11/10/2003,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,118,7406,2003
+11/10/2003,Zea mays L. (*),108,18,G,Corn,55.5,3484,2003
+11/10/2003,Zea mays L. (*),112,15,F,Corn single cover,98.1,6154,2003
+11/10/2003,Zea mays L. (*),113,13,E,Soybean - Corn,108.6,6816,2003
+11/10/2003,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,80.5,5050,2003
+11/10/2003,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,134.8,8458,2003
+11/10/2003,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,89,5583,2003
+11/10/2003,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,123.8,7769,2003
+11/10/2003,Zea mays L. (*),208,18,G,Corn,54.6,3423,2003
+11/10/2003,Zea mays L. (*),212,13,E,Soybean - Corn,62.8,3937,2003
+11/10/2003,Zea mays L. (*),213,15,F,Corn single cover,55.7,3491,2003
+11/10/2003,Zea mays L. (*),301,15,F,Corn single cover,65.9,4134,2003
+11/10/2003,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,114.8,7203,2003
+11/10/2003,Zea mays L. (*),311,18,G,Corn,58.8,3688,2003
+11/10/2003,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,74.3,4660,2003
+11/10/2003,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,107.6,6752,2003
+11/10/2003,Zea mays L. (*),319,13,E,Soybean - Corn,91.6,5747,2003
+11/10/2003,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,93.6,5873,2003
+11/10/2003,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,108.2,6785,2003
+11/10/2003,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,50.4,3159,2003
+11/10/2003,Zea mays L. (*),413,13,E,Soybean - Corn,70.1,4396,2003
+11/10/2003,Zea mays L. (*),415,15,F,Corn single cover,52.2,3276,2003
+11/10/2003,Zea mays L. (*),418,18,G,Corn,50.5,3171,2003
+10/10/2003,Glycine max L. (*),419,19,G,Soybean,21.1,1415,2003
+10/10/2003,Glycine max L. (*),416,16,F,Soybean single cover,21.8,1468,2003
+10/10/2003,Glycine max L. (*),414,14,E,Wheat - Soybean,26.1,1752,2003
+10/10/2003,Glycine max L. (*),412,12,E,Corn - Soybean,27.4,1839,2003
+10/10/2003,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,20.5,1376,2003
+10/10/2003,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,24.8,1664,2003
+10/10/2003,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,26,1747,2003
+10/10/2003,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,28.2,1894,2003
+10/10/2003,Glycine max L. (*),315,19,G,Soybean,23.5,1577,2003
+10/10/2003,Glycine max L. (*),313,12,E,Corn - Soybean,24.9,1677,2003
+10/10/2003,Glycine max L. (*),308,16,F,Soybean single cover,25.8,1733,2003
+10/10/2003,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,27.1,1824,2003
+10/10/2003,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,21.7,1458,2003
+10/10/2003,Glycine max L. (*),304,14,E,Wheat - Soybean,20.5,1378,2003
+10/10/2003,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,27.6,1858,2003
+10/10/2003,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,25.2,1693,2003
+10/10/2003,Glycine max L. (*),218,19,G,Soybean,24,1611,2003
+10/10/2003,Glycine max L. (*),210,16,F,Soybean single cover,21.2,1428,2003
+10/10/2003,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,26.3,1767,2003
+10/10/2003,Glycine max L. (*),204,14,E,Wheat - Soybean,26.7,1797,2003
+10/10/2003,Glycine max L. (*),202,12,E,Corn - Soybean,25.6,1722,2003
+10/10/2003,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,24.7,1660,2003
+10/10/2003,Glycine max L. (*),115,14,E,Wheat - Soybean,24,1613,2003
+10/10/2003,Glycine max L. (*),109,12,E,Corn - Soybean,26.8,1804,2003
+10/10/2003,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,25.7,1724,2003
+10/10/2003,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,30.5,2048,2003
+10/10/2003,Glycine max L. (*),103,19,G,Soybean,26.9,1809,2003
+10/10/2003,Glycine max L. (*),101,16,F,Soybean single cover,25.3,1698,2003
+7/19/2003,Triticum aestivum L. (*),420,20,G,Wheat,38.6,2592,2003
+7/19/2003,Triticum aestivum L. (*),417,17,F,Wheat single cover,54.1,3640,2003
+7/19/2003,Triticum aestivum L. (*),411,11,D,Wheat - Corn - Soybean,47.6,3201,2003
+7/19/2003,Triticum aestivum L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,39.6,2663,2003
+7/19/2003,Triticum aestivum L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,31.5,2118,2003
+7/19/2003,Triticum aestivum L. (*),318,20,G,Wheat,21.7,1461,2003
+7/19/2003,Triticum aestivum L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,37,2490,2003
+7/19/2003,Triticum aestivum L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,40.7,2737,2003
+7/19/2003,Triticum aestivum L. (*),309,11,D,Wheat - Corn - Soybean,42.6,2861,2003
+7/19/2003,Triticum aestivum L. (*),302,17,F,Wheat single cover,45.2,3041,2003
+7/19/2003,Triticum aestivum L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,36.8,2474,2003
+7/19/2003,Triticum aestivum L. (*),216,11,D,Wheat - Corn - Soybean,31.9,2147,2003
+7/19/2003,Triticum aestivum L. (*),215,20,G,Wheat,18.1,1220,2003
+7/19/2003,Triticum aestivum L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,36,2417,2003
+7/19/2003,Triticum aestivum L. (*),211,17,F,Wheat single cover,38.3,2576,2003
+7/19/2003,Triticum aestivum L. (*),120,20,G,Wheat,18.2,1223,2003
+7/19/2003,Triticum aestivum L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,39.9,2685,2003
+7/19/2003,Triticum aestivum L. (*),116,17,F,Wheat single cover,32.6,2193,2003
+7/19/2003,Triticum aestivum L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,40.5,2723,2003
+7/19/2003,Triticum aestivum L. (*),110,11,D,Wheat - Corn - Soybean,50.7,3409,2003
+10/17/2002,Zea mays L. (*),415,15,F,Corn single cover,49.6,3114,2002
+10/17/2002,Zea mays L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,97.4,6110,2002
+10/17/2002,Zea mays L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,92.7,5817,2002
+10/17/2002,Zea mays L. (*),108,18,G,Corn,69.1,4337,2002
+10/17/2002,Zea mays L. (*),109,12,E,Corn - Soybean,122.9,7709,2002
+10/17/2002,Zea mays L. (*),112,15,F,Corn single cover,102.3,6421,2002
+10/17/2002,Zea mays L. (*),117,10,D,Soybean - Wheat - Corn,74.2,4655,2002
+10/17/2002,Zea mays L. (*),202,12,E,Corn - Soybean,62.5,3923,2002
+10/17/2002,Zea mays L. (*),208,18,G,Corn,76.3,4788,2002
+10/17/2002,Zea mays L. (*),209,10,D,Soybean - Wheat - Corn,98.7,6191,2002
+10/17/2002,Zea mays L. (*),213,15,F,Corn single cover,61.6,3864,2002
+10/17/2002,Zea mays L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,88.8,5572,2002
+10/17/2002,Zea mays L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,89.4,5612,2002
+10/17/2002,Zea mays L. (*),301,15,F,Corn single cover,92.4,5799,2002
+10/17/2002,Zea mays L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,101.6,6372,2002
+10/17/2002,Zea mays L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,106.6,6690,2002
+10/17/2002,Zea mays L. (*),311,18,G,Corn,60.8,3812,2002
+10/17/2002,Zea mays L. (*),313,12,E,Corn - Soybean,61.3,3849,2002
+10/17/2002,Zea mays L. (*),320,10,D,Soybean - Wheat - Corn,94.1,5906,2002
+10/17/2002,Zea mays L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,78.6,4929,2002
+10/17/2002,Zea mays L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,98.2,6160,2002
+10/17/2002,Zea mays L. (*),410,10,D,Soybean - Wheat - Corn,74.4,4666,2002
+10/17/2002,Zea mays L. (*),412,12,E,Corn - Soybean,106.9,6706,2002
+10/17/2002,Zea mays L. (*),418,18,G,Corn,76.6,4806,2002
+10/2/2002,Glycine max L. (*),419,19,G,Soybean,50.9,3424,2002
+10/2/2002,Glycine max L. (*),110,11,D,Wheat - Corn - Soybean,70.7,4751,2002
+10/2/2002,Glycine max L. (*),103,19,G,Soybean,41.6,2793,2002
+10/2/2002,Glycine max L. (*),101,16,F,Soybean single cover,49.6,3333,2002
+10/2/2002,Glycine max L. (*),113,13,E,Soybean - Corn,55.6,3735,2002
+10/2/2002,Glycine max L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,73.9,4967,2002
+10/2/2002,Glycine max L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,60.2,4049,2002
+10/2/2002,Glycine max L. (*),210,16,F,Soybean single cover,48.8,3280,2002
+10/2/2002,Glycine max L. (*),212,13,E,Soybean - Corn,54.8,3682,2002
+10/2/2002,Glycine max L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,68.5,4601,2002
+10/2/2002,Glycine max L. (*),216,11,D,Wheat - Corn - Soybean,63.4,4259,2002
+10/2/2002,Glycine max L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,55.3,3717,2002
+10/2/2002,Glycine max L. (*),218,19,G,Soybean,52.5,3527,2002
+10/2/2002,Glycine max L. (*),308,16,F,Soybean single cover,52.9,3554,2002
+10/2/2002,Glycine max L. (*),309,11,D,Wheat - Corn - Soybean,60.7,4079,2002
+10/2/2002,Glycine max L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,49.7,3339,2002
+10/2/2002,Glycine max L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,51,3430,2002
+10/2/2002,Glycine max L. (*),315,19,G,Soybean,47.6,3200,2002
+10/2/2002,Glycine max L. (*),319,13,E,Soybean - Corn,43.1,2896,2002
+10/2/2002,Glycine max L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,60.2,4048,2002
+10/2/2002,Glycine max L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,61.2,4112,2002
+10/2/2002,Glycine max L. (*),411,11,D,Wheat - Corn - Soybean,62.9,4230,2002
+10/2/2002,Glycine max L. (*),413,13,E,Soybean - Corn,45.1,3033,2002
+10/2/2002,Glycine max L. (*),416,16,F,Soybean single cover,28.8,1935,2002
+7/8/2002,Triticum aestivum L. (*),215,20,G,Wheat,33.9,2279,2002
+7/8/2002,Triticum aestivum L. (*),420,20,G,Wheat,42,2825,2002
+7/8/2002,Triticum aestivum L. (*),417,17,F,Wheat single cover,38.4,2584,2002
+7/8/2002,Triticum aestivum L. (*),414,14,E,Wheat - Soybean,44.9,3017,2002
+7/8/2002,Triticum aestivum L. (*),409,9,D,Corn - Soybean - Wheat,50.6,3399,2002
+7/8/2002,Triticum aestivum L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,45.7,3071,2002
+7/8/2002,Triticum aestivum L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,43.6,2931,2002
+7/8/2002,Triticum aestivum L. (*),318,20,G,Wheat,35.8,2405,2002
+7/8/2002,Triticum aestivum L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,46.3,3109,2002
+7/8/2002,Triticum aestivum L. (*),314,9,D,Corn - Soybean - Wheat,44.7,3002,2002
+7/8/2002,Triticum aestivum L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,42,2820,2002
+7/8/2002,Triticum aestivum L. (*),304,14,E,Wheat - Soybean,36.2,2432,2002
+7/8/2002,Triticum aestivum L. (*),302,17,F,Wheat single cover,33,2217,2002
+7/8/2002,Triticum aestivum L. (*),211,17,F,Wheat single cover,40.9,2749,2002
+7/8/2002,Triticum aestivum L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,48.1,3235,2002
+7/8/2002,Triticum aestivum L. (*),205,9,D,Corn - Soybean - Wheat,43.1,2895,2002
+7/8/2002,Triticum aestivum L. (*),204,14,E,Wheat - Soybean,32.5,2186,2002
+7/8/2002,Triticum aestivum L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,33.3,2238,2002
+7/8/2002,Triticum aestivum L. (*),120,20,G,Wheat,33.4,2246,2002
+7/8/2002,Triticum aestivum L. (*),119,9,D,Corn - Soybean - Wheat,43.5,2925,2002
+7/8/2002,Triticum aestivum L. (*),116,17,F,Wheat single cover,31.9,2144,2002
+7/8/2002,Triticum aestivum L. (*),115,14,E,Wheat - Soybean,44.2,2972,2002
+7/8/2002,Triticum aestivum L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,58,3900,2002
+7/8/2002,Triticum aestivum L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,47.7,3208,2002
+11/9/2001,Zea mays L. (*),213,15,F,Corn single cover,104.8,6577,2001
+11/9/2001,Zea mays L. (*),212,13,E,Soybean - Corn,106.3,6672,2001
+11/9/2001,Zea mays L. (*),208,18,G,Corn,93.9,5894,2001
+11/9/2001,Zea mays L. (*),118,8,C,Wheat single cover - Corn single cover - Soybean,97.6,6121,2001
+11/9/2001,Zea mays L. (*),114,5,B,Wheat mixed cover - Corn mixed cover - Soybean,135.4,8498,2001
+11/9/2001,Zea mays L. (*),113,13,E,Soybean - Corn,156.3,9806,2001
+11/9/2001,Zea mays L. (*),112,15,F,Corn single cover,129.6,8130,2001
+11/9/2001,Zea mays L. (*),110,11,D,Wheat - Corn - Soybean,149.8,9397,2001
+11/9/2001,Zea mays L. (*),108,18,G,Corn,87.9,5512,2001
+11/9/2001,Zea mays L. (*),418,18,G,Corn,76,4768,2001
+11/9/2001,Zea mays L. (*),415,15,F,Corn single cover,58.1,3644,2001
+11/9/2001,Zea mays L. (*),413,13,E,Soybean - Corn,91.5,5741,2001
+11/9/2001,Zea mays L. (*),411,11,D,Wheat - Corn - Soybean,97.9,6143,2001
+11/9/2001,Zea mays L. (*),408,8,C,Wheat single cover - Corn single cover - Soybean,109.9,6896,2001
+11/9/2001,Zea mays L. (*),405,5,B,Wheat mixed cover - Corn mixed cover - Soybean,87.9,5516,2001
+11/9/2001,Zea mays L. (*),319,13,E,Soybean - Corn,117.6,7380,2001
+11/9/2001,Zea mays L. (*),312,5,B,Wheat mixed cover - Corn mixed cover - Soybean,95.9,6014,2001
+11/9/2001,Zea mays L. (*),311,18,G,Corn,96.2,6038,2001
+11/9/2001,Zea mays L. (*),310,8,C,Wheat single cover - Corn single cover - Soybean,120.7,7574,2001
+11/9/2001,Zea mays L. (*),309,11,D,Wheat - Corn - Soybean,130,8155,2001
+11/9/2001,Zea mays L. (*),301,15,F,Corn single cover,114.9,7211,2001
+11/9/2001,Zea mays L. (*),217,5,B,Wheat mixed cover - Corn mixed cover - Soybean,98.2,6162,2001
+11/9/2001,Zea mays L. (*),216,11,D,Wheat - Corn - Soybean,85.9,5392,2001
+11/9/2001,Zea mays L. (*),214,8,C,Wheat single cover - Corn single cover - Soybean,102,6398,2001
+10/3/2001,Glycine max L. (*),414,14,E,Wheat - Soybean,33,2220,2001
+10/3/2001,Glycine max L. (*),101,16,F,Soybean single cover,28,1883,2001
+10/3/2001,Glycine max L. (*),103,19,G,Soybean,32.8,2203,2001
+10/3/2001,Glycine max L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,30.4,2046,2001
+10/3/2001,Glycine max L. (*),109,12,E,Corn - Soybean,45.3,3042,2001
+10/3/2001,Glycine max L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,48.7,3272,2001
+10/3/2001,Glycine max L. (*),115,14,E,Wheat - Soybean,35.6,2394,2001
+10/3/2001,Glycine max L. (*),119,9,D,Corn - Soybean - Wheat,31.2,2100,2001
+10/3/2001,Glycine max L. (*),202,12,E,Corn - Soybean,26.1,1753,2001
+10/3/2001,Glycine max L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,29.1,1957,2001
+10/3/2001,Glycine max L. (*),204,14,E,Wheat - Soybean,18.6,1249,2001
+10/3/2001,Glycine max L. (*),205,9,D,Corn - Soybean - Wheat,31,2086,2001
+10/3/2001,Glycine max L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,32.3,2170,2001
+10/3/2001,Glycine max L. (*),210,16,F,Soybean single cover,23.1,1553,2001
+10/3/2001,Glycine max L. (*),218,19,G,Soybean,22.6,1518,2001
+10/3/2001,Glycine max L. (*),304,14,E,Wheat - Soybean,26.3,1771,2001
+10/3/2001,Glycine max L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,30,2020,2001
+10/3/2001,Glycine max L. (*),308,16,F,Soybean single cover,32.5,2187,2001
+10/3/2001,Glycine max L. (*),313,12,E,Corn - Soybean,35.4,2380,2001
+10/3/2001,Glycine max L. (*),314,9,D,Corn - Soybean - Wheat,37.9,2549,2001
+10/3/2001,Glycine max L. (*),315,19,G,Soybean,28.3,1905,2001
+10/3/2001,Glycine max L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,23.6,1589,2001
+10/3/2001,Glycine max L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,32.3,2168,2001
+10/3/2001,Glycine max L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,25.5,1715,2001
+10/3/2001,Glycine max L. (*),409,9,D,Corn - Soybean - Wheat,29.7,1999,2001
+10/3/2001,Glycine max L. (*),412,12,E,Corn - Soybean,37.9,2547,2001
+10/3/2001,Glycine max L. (*),416,16,F,Soybean single cover,16.7,1122,2001
+10/3/2001,Glycine max L. (*),419,19,G,Soybean,29.8,2006,2001
+7/27/2001,Triticum aestivum L. (*),420,20,G,Wheat,65.2,4381,2001
+7/27/2001,Triticum aestivum L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,68,4572,2001
+7/27/2001,Triticum aestivum L. (*),116,17,F,Wheat single cover,55.9,3755,2001
+7/27/2001,Triticum aestivum L. (*),117,10,D,Soybean - Wheat - Corn,60.8,4084,2001
+7/27/2001,Triticum aestivum L. (*),120,20,G,Wheat,58,3897,2001
+7/27/2001,Triticum aestivum L. (*),209,10,D,Soybean - Wheat - Corn,75.5,5072,2001
+7/27/2001,Triticum aestivum L. (*),211,17,F,Wheat single cover,60.6,4073,2001
+7/27/2001,Triticum aestivum L. (*),215,20,G,Wheat,55.6,3740,2001
+7/27/2001,Triticum aestivum L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,71,4772,2001
+7/27/2001,Triticum aestivum L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,71.5,4807,2001
+7/27/2001,Triticum aestivum L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,69.4,4664,2001
+7/27/2001,Triticum aestivum L. (*),302,17,F,Wheat single cover,59.5,3998,2001
+7/27/2001,Triticum aestivum L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,54.4,3659,2001
+7/27/2001,Triticum aestivum L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,59,3969,2001
+7/27/2001,Triticum aestivum L. (*),318,20,G,Wheat,54.2,3644,2001
+7/27/2001,Triticum aestivum L. (*),320,10,D,Soybean - Wheat - Corn,72.8,4891,2001
+7/27/2001,Triticum aestivum L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,54.9,3688,2001
+7/27/2001,Triticum aestivum L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,60.6,4077,2001
+7/27/2001,Triticum aestivum L. (*),410,10,D,Soybean - Wheat - Corn,64.9,4360,2001
+7/27/2001,Triticum aestivum L. (*),417,17,F,Wheat single cover,42.3,2843,2001
+12/4/2000,Zea mays L. (*),119,9,D,Corn - Soybean - Wheat,124.4,7808,2000
+12/4/2000,Zea mays L. (*),111,3,B,Corn mixed cover - Soybean - W mixed cover,139.8,8772,2000
+12/4/2000,Zea mays L. (*),109,12,E,Corn - Soybean,154.6,9699,2000
+12/4/2000,Zea mays L. (*),108,18,G,Corn,130.9,8215,2000
+12/4/2000,Zea mays L. (*),107,6,C,Corn single cover - Soybean - Wheat single cover,145.8,9145,2000
+12/4/2000,Zea mays L. (*),418,18,G,Corn,141.8,8899,2000
+12/4/2000,Zea mays L. (*),415,15,F,Corn single cover,116,7277,2000
+12/4/2000,Zea mays L. (*),412,12,E,Corn - Soybean,143.1,8979,2000
+12/4/2000,Zea mays L. (*),409,9,D,Corn - Soybean - Wheat,152.6,9574,2000
+12/4/2000,Zea mays L. (*),406,6,C,Corn single cover - Soybean - Wheat single cover,131.5,8248,2000
+12/4/2000,Zea mays L. (*),403,3,B,Corn mixed cover - Soybean - W mixed cover,121.7,7636,2000
+12/4/2000,Zea mays L. (*),317,6,C,Corn single cover - Soybean - Wheat single cover,150.5,9443,2000
+12/4/2000,Zea mays L. (*),314,9,D,Corn - Soybean - Wheat,143.6,9008,2000
+12/4/2000,Zea mays L. (*),313,12,E,Corn - Soybean,145.9,9154,2000
+12/4/2000,Zea mays L. (*),311,18,G,Corn,132.7,8323,2000
+12/4/2000,Zea mays L. (*),306,3,B,Corn mixed cover - Soybean - W mixed cover,53.6,3363,2000
+12/4/2000,Zea mays L. (*),301,15,F,Corn single cover,136.7,8574,2000
+12/4/2000,Zea mays L. (*),213,15,F,Corn single cover,139.4,8747,2000
+12/4/2000,Zea mays L. (*),208,18,G,Corn,135.3,8492,2000
+12/4/2000,Zea mays L. (*),207,6,C,Corn single cover - Soybean - Wheat single cover,157.9,9910,2000
+12/4/2000,Zea mays L. (*),205,9,D,Corn - Soybean - Wheat,158.5,9945,2000
+12/4/2000,Zea mays L. (*),203,3,B,Corn mixed cover - Soybean - W mixed cover,147.9,9281,2000
+12/4/2000,Zea mays L. (*),202,12,E,Corn - Soybean,121,7591,2000
+12/4/2000,Zea mays L. (*),112,15,F,Corn single cover,136.6,8571,2000
+10/24/2000,Glycine max L. (*),105,7,C,Soybean - Wheat single cover - Corn single cover,44.8,3010,2000
+10/24/2000,Glycine max L. (*),209,10,D,Soybean - Wheat - Corn,48.7,3275,2000
+10/24/2000,Glycine max L. (*),117,10,D,Soybean - Wheat - Corn,47.2,3170,2000
+10/24/2000,Glycine max L. (*),113,13,E,Soybean - Corn,50.7,3407,2000
+10/24/2000,Glycine max L. (*),419,19,G,Soybean,38.9,2616,2000
+10/24/2000,Glycine max L. (*),410,10,D,Soybean - Wheat - Corn,46.3,3115,2000
+10/24/2000,Glycine max L. (*),416,16,F,Soybean single cover,43.2,2904,2000
+10/24/2000,Glycine max L. (*),407,7,C,Soybean - Wheat single cover - Corn single cover,51.1,3435,2000
+10/24/2000,Glycine max L. (*),404,4,B,Soybean - Wheat mixed cover - Corn mixed cover,50.1,3371,2000
+10/24/2000,Glycine max L. (*),320,10,D,Soybean - Wheat - Corn,50.6,3399,2000
+10/24/2000,Glycine max L. (*),319,13,E,Soybean - Corn,48.2,3242,2000
+10/24/2000,Glycine max L. (*),315,19,G,Soybean,49.8,3351,2000
+10/24/2000,Glycine max L. (*),308,16,F,Soybean single cover,50.1,3368,2000
+10/24/2000,Glycine max L. (*),307,4,B,Soybean - Wheat mixed cover - Corn mixed cover,50.9,3424,2000
+10/24/2000,Glycine max L. (*),305,7,C,Soybean - Wheat single cover - Corn single cover,47.9,3222,2000
+10/24/2000,Glycine max L. (*),220,4,B,Soybean - Wheat mixed cover - Corn mixed cover,48.6,3264,2000
+10/24/2000,Glycine max L. (*),219,7,C,Soybean - Wheat single cover - Corn single cover,46.1,3097,2000
+10/24/2000,Glycine max L. (*),413,13,E,Soybean - Corn,50.4,3389,2000
+10/24/2000,Glycine max L. (*),218,19,G,Soybean,48.5,3260,2000
+10/24/2000,Glycine max L. (*),212,13,E,Soybean - Corn,44.8,3015,2000
+10/24/2000,Glycine max L. (*),210,16,F,Soybean single cover,47,3162,2000
+10/24/2000,Glycine max L. (*),101,16,F,Soybean single cover,47.1,3169,2000
+10/24/2000,Glycine max L. (*),103,19,G,Soybean,42.4,2848,2000
+10/24/2000,Glycine max L. (*),104,4,B,Soybean - Wheat mixed cover - Corn mixed cover,42.8,2880,2000
