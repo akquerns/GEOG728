@@ -5,8 +5,9 @@ date: "2/16/2022"
 output: html_document
 ---
 
+# The Setup
+
 ```{r setup, include=TRUE, message=FALSE}
-library(gapminder)
 library(tidyverse)
 library(datasets)
 library(viridis)
@@ -44,7 +45,9 @@ dfr<- df
 colnames(dfr) <- c("Year", "SortOrder", "Major area, region, country or area of destination", "Notes", "Code", "DataTypeA", colnames(df[7:241]))
 ```
 
-## Q1: We will only work with the data that uses countries as Major area, region, country or area of destination so your first task is to do some creative cleaning of the imported data. To create a dataset with a single column for destination countries and separate columns for origin countries. You should have column names that mean something (e.g. no X2 column names).
+### Q1: We will only work with the data that uses countries as Major area, region, country or area of destination so your first task is to do some creative cleaning of the imported data. To create a dataset with a single column for destination countries and separate columns for origin countries. You should have column names that mean something (e.g. no X2 column names).
+
+All of the codes <900 or not NAs are countries
 
 ```{r what the heck is with this dataset, echo=TRUE}
 
@@ -57,7 +60,7 @@ dfr_filt  <- dfr %>%
 
 ```
 
-## Q2: Examine the dataframe you just created. Is it tidy? If not, how is it untidy? Assuming the data is untidy now you should make it tidy (give each variable its own column and each observation its own row).
+### Q2: Examine the dataframe you just created. Is it tidy? If not, how is it untidy? Assuming the data is untidy now you should make it tidy (give each variable its own column and each observation its own row).
 
 ```{r why is this dataset so bad, echo=TRUE}
 
@@ -68,9 +71,9 @@ dfr_tidy <- dfr_filt %>% # make the data into long format for Country of Origin
 
 ```
 
-## Q3: Now start your exploratory data analysis by examining the structure of the dataset you have constructed. Make sure you determine if you have any NA for migration values? What do these NAs mean? (You may want to check out the documentation on the UN website provided above.) Show your structural analysis below and describe what you found in words.
+### Q3: Now start your exploratory data analysis by examining the structure of the dataset you have constructed. Make sure you determine if you have any NA for migration values? What do these NAs mean? (You may want to check out the documentation on the UN website provided above.) Show your structural analysis below and describe what you found in words.
 
-```{r why is this dataset so bad, echo=TRUE}
+```{r asdfghjkjghfgd, echo=TRUE}
 
 str(dfr_tidy)
 
@@ -84,13 +87,13 @@ We do have some additional columns (SortOrder--helps sort stuff from the same de
 
 In this case, we found NAs in the MigrantN and Notes columns. 
 
-Having NAs for MigrantN just means that there wasn't any migrants from that particular country or area of origin going to the particular destination country.
+I couldn't really find where this is explained, but NAs for MigrantN could mean that there's a lack of data for that particular origin/destination for that year. Personally, I prefer to leave these in as a placeholder.
 
 We also see NAs in the Notes section, which just means no notes were made there.
 
 Originally, there might've been some NAs for Code, but I removed those in step 1.
 
-## Q4: If anything about your dataset seems odd or inappropriate go ahead and do some additional cleaning or transformation now. Describe what you are doing and why.
+### Q4: If anything about your dataset seems odd or inappropriate go ahead and do some additional cleaning or transformation now. Describe what you are doing and why.
 
 First: MigrantN is a character, and should be numeric, so let's change that
 
@@ -128,35 +131,179 @@ length(unique(dfr_tidier$OriginCountry))#how many unique origin countries?
 length(unique(dfr_tidier$OriginCountry))*length(unique(dfr_tidier$Destination))*length(unique(dfr_tidier$Year)) #Does the number of origin*destination*years equal total obs?
 
 ```
+Also, lastly, the Origin Countries have periods instead of spaces, so let's replace those:
 
-## Q5: Now move on to describing the important values and variation in your dataset. Describe in words what you find.
+```{r replace, echo=TRUE}
+dfr_tidiest<- dfr_tidier
+ dfr_tidiest$OriginCountry<-gsub(".", " ", dfr_tidiest$OriginCountry, fixed = TRUE)
+
+```
+
+
+### Q5: Now move on to describing the important values and variation in your dataset. Describe in words what you find.
 
 ```{r yeeeeee, echo=TRUE}
 
+  dfr_tidiest %>%
+    group_by(Destination)%>%
+    summarize(sum(is.na(MigrantN))) %>%
+  arrange(desc(.))#how many NAs are there by Destination 
 
+dfr_tidiest %>%
+    group_by(OriginCountry)%>%
+    summarize(sum(is.na(MigrantN))) %>%
+  arrange(desc(.))#how many NAs are there by Destination 
 
 ```
 
-### Q6: Visualization the important data distributions in your dataset and describe.
+As far as lack of migrants, Zimbabwe, Zambia, and Yemen have the most NAs for lack of data on migrants going in (AKA--as destination countries), and migrants leaving (AKA--as origin countries)
+
+I'm not sure I understand this dataset well enough to know whether the NAs are just because of a lack of recorded data or because it's a zero. All I know is that these  were previously the "..." entries.
+
+```{r im hungry, echo=TRUE}
+
+x<-dfr_tidiest %>%
+  group_by(OriginCountry)%>%
+  summarize(meanMigrants = mean(MigrantN, na.rm=T)) %>%
+  arrange(desc(meanMigrants))
+
+y<-dfr_tidiest %>%
+  group_by(OriginCountry)%>%
+  summarize(sdMigrants = sd(MigrantN, na.rm=T)) %>%
+  arrange(desc(sdMigrants))
+
+x
+
+y
+
+```
+The top three "origin countries" over the years (AKA places with the most migrants leaving) are "Total" (this is just the total count of migrants for all countries--so yes, it would make sense that this is at the top), Mexico, and Russia. These countries (along with the "Total") also had the greatest variation (standard deviation) in migrants leaving.
+
+```{r but I forgot my lunch at home :(, echo=TRUE}
+
+a<-dfr_tidiest %>%
+  group_by(Destination)%>%
+  summarize(meanMigrants = mean(MigrantN, na.rm=T)) %>%
+  arrange(desc(meanMigrants))
+
+b<-dfr_tidiest %>%
+  group_by(Destination)%>%
+  summarize(sdMigrants = sd(MigrantN, na.rm=T)) %>%
+  arrange(desc(sdMigrants))
+
+a
+
+b
+
+```
+
+The top three destination countries (AKA countries with highest mean number of migrants) over the study years are Saudi Arabia, Pakistan, and Iran. 
+
+The destination countries with the greatest variability over the years (highest standard deviation) are the United States (this is not surprising), Saudi Arabia, and Pakistan.
+
+```{r aaaaaaaaaa, echo=TRUE}
+
+c<-dfr_tidiest %>%
+  group_by(Year)%>%
+  summarize(meanMigrants = mean(MigrantN, na.rm=T)) %>%
+  arrange(desc(meanMigrants))
+
+d<-dfr_tidiest %>%
+  group_by(Year)%>%
+  summarize(sdMigrants = sd(MigrantN, na.rm=T)) %>%
+  arrange(desc(sdMigrants))
+
+c
+
+d
+
+```
+
+The year with the greatest number of mean migrants is 2019, which also had the greatest variation overall.
+
+### Q6: Visualize the important data distributions in your dataset and describe.
+
+For vizualization sake, I'll take out "total"
 
 ```{r distr, echo=TRUE}
+x1<- x %>% filter (OriginCountry!="Total")
 
+hist(x1$meanMigrants, breaks=10) # mean migrants by origin country
 
+hist(a$meanMigrants, breaks=10) # mean migrants by destination country
+
+dfr_tidiest%>%
+  filter(OriginCountry!= "Total")%>%
+ggplot(.)+
+  geom_bar(stat = 'identity', aes(x=Year, y=MigrantN))+
+  theme_bw()+ 
+  ylab("No. of Migrants")
 
 ```
+
+Above, I show: 
+
++ a histogram of mean number of migrants across origin countries (did a histogram instead of boxplots because there's too many countries to look at at once). This distribution has a long tail, meaning that a few countries have many more migrants leaving them.
+
++ a histogram of the mean number of migrants across destination countries (did a histogram instead of boxplots because there's too many countries to look at at once). This distribution has a long tail, meaning that a few countries have many more migrants entering them.
+
++ Bar plot showing the total number of migrants per year. You can see the number of migrants increases over time (which probably has a lot to do with the world population growing)
+
 
 ### Q7: Explore trends and patterns in your dataset using graphic visualizations and describe what you find.
 
-```{r blergh, echo=TRUE}
+First, let's look at worldwide patterns in mean migration numbers.
 
+```{r trends, echo=TRUE}
 
+dfr_tidiest %>%
+  filter(Destination !="Total"& OriginCountry !="Total")%>%
+ggplot(., aes(x=Year, y=log(MigrantN)))+
+  geom_point()+
+  geom_smooth(method="lm")+
+  theme_bw()+
+  ylab("log(Number of Migrants)")
+
+l1<-lm(MigrantN ~Year, data=dfr_tidiest)
+summary(l1)
 
 ```
+
+_There is a significant increase in numbers of migrants traveling from one country to another over time._
+
+```{r trends2, echo=TRUE}
+
+US<-dfr_tidiest %>%
+  filter(Destination =="United States of America"& OriginCountry!= "Total" & OriginCountry != "Other South" & OriginCountry != "Other North") %>%
+  arrange(desc(OriginCountry))
+
+
+ggplot(US, aes(x=Year, y=log(MigrantN)))+
+  geom_point()+
+  geom_smooth(method="lm")+ 
+  theme_bw()+
+  ylab("log(Number of Migrants)")
+
+
+l2<-lm(MigrantN ~Year, data=US)
+summary(l2)
+
+upper<-US %>%
+  filter(MigrantN > 100000)
+
+ggplot(upper, aes(x=reorder(OriginCountry, MigrantN), y=MigrantN)) +
+         geom_bar(stat = 'identity')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1)) +
+  xlab ("Origin Country") +
+  ylab(" Number of Migrants Entering USA")
+```
+
+_There is also a significant increase in migrants to the US over time, which is primarily driven by folks coming over from Mexico, followed by China, Puerto Rico, and the Philippines._
 
 ### Q8: Save your created dataframe to a csv file using the write_csv() function. Save this file in your active R Project.
 
 ```{r dataframe, echo=TRUE}
 
-
+write.csv(dfr_tidiest, file="DATA/cleaned-UNmigrantN.csv")
 
 ```
