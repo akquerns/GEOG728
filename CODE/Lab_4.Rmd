@@ -1,0 +1,162 @@
+---
+title: "Lab 4"
+author: "Aleah Querns"
+date: "2/16/2022"
+output: html_document
+---
+
+```{r setup, include=TRUE, message=FALSE}
+library(gapminder)
+library(tidyverse)
+library(datasets)
+library(viridis)
+library(gridExtra)
+library(MuMIn)
+library(openxlsx)
+
+knitr::opts_knit$set(root.dir = '~/Documents/K-State Year 2/GEOG728/GEOG728_GIT')
+```
+
+# The Dataset
+
+
+```{r UN dat, echo=TRUE}
+df<-readWorkbook(
+  xlsxFile = "DATA/UN_MigrantStockByOriginAndDestination_2019.xlsx",
+  sheet = 2,
+  startRow = 16,
+  colNames = TRUE,
+  rowNames = FALSE,
+  detectDates = FALSE,
+  skipEmptyRows = TRUE,
+  skipEmptyCols = TRUE,
+  rows = NULL,
+  cols = NULL,
+  check.names = FALSE,
+  sep.names = ".",
+  namedRegion = NULL,
+  na.strings = "NA",
+  fillMergedCells = FALSE
+)
+
+dfr<- df
+
+colnames(dfr) <- c("Year", "SortOrder", "Major area, region, country or area of destination", "Notes", "Code", "DataTypeA", colnames(df[7:241]))
+```
+
+## Q1: We will only work with the data that uses countries as Major area, region, country or area of destination so your first task is to do some creative cleaning of the imported data. To create a dataset with a single column for destination countries and separate columns for origin countries. You should have column names that mean something (e.g. no X2 column names).
+
+```{r what the heck is with this dataset, echo=TRUE}
+
+#Counties use codes <900 OR !=NA
+
+dfr$Code <- as.numeric(dfr$Code)
+
+dfr_filt  <- dfr %>%
+  filter(Code <900, na.rm=TRUE)
+
+```
+
+## Q2: Examine the dataframe you just created. Is it tidy? If not, how is it untidy? Assuming the data is untidy now you should make it tidy (give each variable its own column and each observation its own row).
+
+```{r why is this dataset so bad, echo=TRUE}
+
+dfr_tidy <- dfr_filt %>% # make the data into long format for Country of Origin
+  pivot_longer(cols= Total:Zimbabwe, 
+               names_to = "CountryorAreaofOrigin",
+               values_to= "MigrantN") 
+
+```
+
+## Q3: Now start your exploratory data analysis by examining the structure of the dataset you have constructed. Make sure you determine if you have any NA for migration values? What do these NAs mean? (You may want to check out the documentation on the UN website provided above.) Show your structural analysis below and describe what you found in words.
+
+```{r why is this dataset so bad, echo=TRUE}
+
+str(dfr_tidy)
+
+colSums(is.na(dfr_tidy)) 
+
+```
+
+Overall: the structure for dfr_tidy shows 38,1640 rows and 8 columns. Observations (rows) are specific to a particular year (numeric), destination country (character), and origin country (character), where the number of migrants going from one origin country to another destination country in one year is reported in MigrantN. 
+
+We do have some additional columns (SortOrder--helps sort stuff from the same destination country together, Code--specific to each destination country, and DataTypeA--type of data used to derive estimates)
+
+In this case, we found NAs in the MigrantN and Notes columns. 
+
+Having NAs for MigrantN just means that there wasn't any migrants from that particular country or area of origin going to the particular destination country.
+
+We also see NAs in the Notes section, which just means no notes were made there.
+
+Originally, there might've been some NAs for Code, but I removed those in step 1.
+
+## Q4: If anything about your dataset seems odd or inappropriate go ahead and do some additional cleaning or transformation now. Describe what you are doing and why.
+
+First: MigrantN is a character, and should be numeric, so let's change that
+
+Changing this variable to numeric will also turn the "..." entries to NA, which makes sense.
+
+```{r edits1, echo=TRUE}
+
+dfr_tidy$MigrantN <- as.numeric(dfr_tidy$MigrantN)
+
+```
+
+Also--the SortOrder, Notes, and Code columns are pretty unimportant (to me) so I'll remove them
+
+```{r edits2, echo=TRUE}
+dfr_tidier <-dfr_tidy %>%
+  select(-c(SortOrder, Notes, Code, DataTypeA))
+
+```
+
+And some of the column names are annoying, so I'll change them
+
+```{r edits3, echo=TRUE}
+colnames(dfr_tidier) <- c("Year", "Destination", "OriginCountry", "MigrantN")
+
+```
+
+Let's just check to make sure everything lines up
+
+```{r ok, echo=TRUE}
+
+ length(unique(dfr_tidier$Destination))#how many unique destination countries?
+
+length(unique(dfr_tidier$OriginCountry))#how many unique origin countries?
+
+length(unique(dfr_tidier$OriginCountry))*length(unique(dfr_tidier$Destination))*length(unique(dfr_tidier$Year)) #Does the number of origin*destination*years equal total obs?
+
+```
+
+## Q5: Now move on to describing the important values and variation in your dataset. Describe in words what you find.
+
+```{r yeeeeee, echo=TRUE}
+
+
+
+```
+
+### Q6: Visualization the important data distributions in your dataset and describe.
+
+```{r distr, echo=TRUE}
+
+
+
+```
+
+### Q7: Explore trends and patterns in your dataset using graphic visualizations and describe what you find.
+
+```{r blergh, echo=TRUE}
+
+
+
+```
+
+### Q8: Save your created dataframe to a csv file using the write_csv() function. Save this file in your active R Project.
+
+```{r dataframe, echo=TRUE}
+
+
+
+```
