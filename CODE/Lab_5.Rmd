@@ -1,0 +1,160 @@
+---
+title: "Lab 5"
+author: "Aleah Querns"
+date: "2/21/2022"
+output: html_document
+---
+
+# The Setup
+
+```{r setup, include=TRUE, message=FALSE}
+library(tidyverse)
+library(sf)
+library(spData)
+library(gridExtra)
+
+knitr::opts_knit$set(root.dir = '~/Documents/K-State Year 2/GEOG728/GEOG728_GIT')
+```
+
+# The Dataset
+
+```{r dataset, echo=TRUE}
+
+data(world)
+data(worldbank_df)
+
+world
+worldbank_df
+
+```
+###Q1: Examine the world and worldbank_df datasets. Describe what kind of data objects they are and their general structure and makeup. Then combine these two data objects into a single spatial data object. Does the resulting data object look right?
+
+```{r yeet, echo=TRUE}
+class(world)
+class(worldbank_df)
+
+str(world)
+str(worldbank_df)
+
+setdiff(world$name_long, worldbank_df$name)
+
+worldbank_df$name<-gsub(pattern = "Cote d'Ivoire", replacement= "Côte d'Ivoire", worldbank_df$name)
+
+worldbank_df$name<-gsub(pattern = "Swaziland", replacement= "eSwatini", worldbank_df$name)
+
+worldbank_df$name<-gsub(pattern = "Republic of Congo", replacement= "Republic of the Congo", worldbank_df$name)
+
+
+worldfull<-merge(world, worldbank_df, by.x ="name_long", by.y= "name", na.rm=F)
+
+colSums(is.na(worldfull)) 
+
+```
+
+_"world"_
+
++ Data type: "world" is an "sf", "tbl_df", "tbl", and "data.frame"
+
++ General structure: 177 rows, 11 columns. First 6 columns (characters) provide various types of country-related descriptions for data entries. Columns 7-9 (numeric) provide various stats about these countries (pop=population; lifeExp= life expectancy; gdpPercap= GDP per capita), and the final column "geom" ("sfc_MULTIPOLYGON") provides polygons for each country.
+
+
+_"worldbank_df"_
+
++ Data type: "worldbank_df" is a "tbl_df", "tbl", and "data.frame"
+
++ General structure: 177 rows, 7 columns. First two columns (characters) provide names for countries. Columns 5-7 (numeric) provide various stats on each country (HDI, urban populatin size, unemployment, population growth, literacy rates)
+
+**At first, the datasets weren't merging correctly due to small differences in country names between the two. To correct this, I used gsub to correct the errors in the worldbank_df**
+
+### Q2: Make some basic (non-spatial) plots to explore differences in urban population and literacy across countries.
+
+```{r basic plots 1, echo=TRUE}
+
+worldfull%>%
+  filter(!is.na(literacy), literacy !=0)%>%
+ggplot(aes(x=reorder(name_long, literacy), y=literacy)) +
+  geom_bar(stat = 'identity')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab ("Country") +
+  ylab("Adult Literacy Rate")
+
+worldfull%>%
+  filter(!is.na(urban_pop), urban_pop !=0)%>%
+ggplot(aes(x=reorder(name_long, urban_pop), y=urban_pop)) +
+  geom_bar(stat = 'identity')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab ("Country") +
+  ylab("Urban Population Size")
+
+```
+
+_As always, these plots are hard to view because of the number of countries, so it's best to view them in another window_
+
+### Q3: Now make some maps to explore urban population and literacy across countries.
+
+``` {r maps 1}
+
+ggplot(worldfull)+
+  geom_sf(aes(fill=log(urban_pop))) +
+  theme_bw()+
+  guides(fill=guide_legend(title="log(Urban Population Size)"))
+
+ggplot(worldfull)+
+  geom_sf(aes(fill=literacy)) +
+  theme_bw()+
+  guides(fill=guide_legend(title="Adult Literacy Rate"))
+
+```
+
+_Interestingly, it seems like most countries aren't providing data on literacy rates_
+
+### Q4: Make some basic (non-spatial) plots to explore differences in urban population and literacy across continents.
+
+```{r basic plots 2, echo=TRUE}
+
+worldfull%>%
+  filter(!is.na(literacy), literacy !=0)%>%
+  group_by(continent)%>%
+  summarise(literacy_mean = mean(literacy)) %>%
+ggplot(aes(x=reorder(continent, literacy_mean), y=literacy_mean)) +
+  geom_bar(stat = 'identity')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab ("Continent") +
+  ylab("Adult Literacy Rate")
+
+worldfull%>%
+  filter(!is.na(urban_pop), urban_pop !=0)%>%
+  group_by(continent)%>%
+  summarise(urban_pop_mean = mean(urban_pop)) %>%
+ggplot(aes(x=reorder(continent, urban_pop_mean), y=urban_pop_mean)) +
+  geom_bar(stat = 'identity')+
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))+
+  xlab ("Continent") +
+  ylab("Urban Population Size")
+
+```
+
+### Q5: Now make some maps to explore differences in urban population and literacy across continents. Change to a different, projected coordinate system for these maps.
+
+``` {r maps 2}
+worldfullproj<-st_make_valid(st_transform(worldfull, "+proj=natearth +lon_0=1 +datum=WGS84 +units=m +no_defs"))
+
+worldfullproj %>%
+  group_by(continent) %>%
+  summarise(urban_pop_mean = mean(urban_pop, na.rm=TRUE)) %>%
+ggplot()+
+  geom_sf(aes(fill=log(urban_pop_mean))) +
+  theme_bw()+
+  guides(fill=guide_legend(title="log(Mean Urban Population Size Across Continent)"))+
+  theme(legend.title = element_text(size = 8))
+
+worldfullproj %>%
+  group_by(continent) %>%
+  summarise(lit_mean = mean(literacy, na.rm=TRUE)) %>%
+ggplot()+
+  geom_sf(aes(fill=lit_mean)) +
+  theme_bw()+
+  guides(fill=guide_legend(title="Mean Adult Literacy Rate Across Continent"))+
+  theme(legend.title = element_text(size = 8))
+
+```
