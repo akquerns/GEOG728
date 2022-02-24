@@ -117,3 +117,8 @@ tm_shape(bea_sf %>% filter(Year==2012))+
             inner.margins = c(.2, .05, .05, .1)) +
   tm_compass(size=0.5, type = "rose",
              position= c("right", "bottom"))
+
+tmap_mode("view")
+
+tm_shape(bea_sf %>% filter(Year==2012))+
+  tm_polygons("Mining", title= "Mining $")# Interactive plot bc view
